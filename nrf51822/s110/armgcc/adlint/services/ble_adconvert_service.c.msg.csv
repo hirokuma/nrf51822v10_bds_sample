@@ -1,0 +1,329 @@
+V,3.2.14,2015-10-23 23:12:31 +0900,/cygdrive/e/Prog/BLE/nRF51_SDK_9.0.0_2e23562/projects/adc_test/nrf51822/s110/armgcc/adlint
+E,/usr/include/sys/cdefs.h,275,21,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+E,/usr/include/sys/cdefs.h,291,21,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+E,/usr/include/sys/cdefs.h,307,23,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+E,/usr/include/sys/cdefs.h,320,21,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+W,../../../../services/ble_adconvert_service.h,14,1,c_builtin,W0576,UNC,X99,基本ソース文字集合に含まれない文字が、ソースファイル `../../../../services/ble_adconvert_service.h' のコメントの中で使われています。
+W,../../../../services/ble_adconvert_service.h,22,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.h,106,8,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.c,6,1,c_builtin,W0026,UNC,X99,`../../../../../../components/ble/common/ble_srv_common.h' は、既にこのファイルから間接的にインクルードされています。
+W,../../../../services/ble_adconvert_service.c,8,1,c_builtin,W0026,UNC,X99,`../../../../../../components/libraries/util/app_util_bds.h' は、既にこのファイルから間接的にインクルードされています。
+W,../../../../services/ble_adconvert_service.c,120,13,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.c,131,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.c,137,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.c,144,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.c,159,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.c,177,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.c,198,9,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,935,120,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,945,89,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,972,146,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,993,103,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1001,65,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1026,143,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1042,110,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1054,84,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1064,92,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1074,95,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1085,103,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1095,97,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1109,159,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1126,111,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1151,131,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1177,201,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1197,133,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1217,157,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1236,203,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1248,121,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1263,128,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1277,83,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1294,97,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1308,107,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1316,67,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1333,180,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1341,77,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_l2cap.h,137,85,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_l2cap.h,149,89,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_l2cap.h,169,132,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,286,173,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,304,161,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,324,165,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,341,157,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,359,189,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,378,111,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,395,151,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,419,127,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,432,106,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,382,129,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,403,148,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,428,226,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,447,149,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,466,132,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,489,132,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,526,119,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,549,143,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,566,179,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,603,155,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,631,152,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,254,90,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,281,83,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,318,91,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,347,111,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,368,124,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,383,127,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,396,83,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,411,122,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,427,90,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,446,84,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+W,../../../../services/ble_adconvert_service.c,23,16,c_builtin,W1076,UNC,X99,関数 `advalue_encode' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../services/ble_adconvert_service.c,25,19,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,25,19,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,26,40,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,23,65,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,26,67,c_builtin,W0246,UNC,X99,暗黙的に unsigned char 型から signed int 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,26,67,c_builtin,W9003,UNC,X99,暗黙的に `uint8_t' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,26,66,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,23,86,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,26,5,c_builtin,W0246,UNC,X99,暗黙的に unsigned char 型から signed int 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,26,5,c_builtin,W9003,UNC,X99,暗黙的に `uint8_t' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,26,29,c_builtin,W0246,UNC,X99,暗黙的に unsigned char 型から signed int 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,26,29,c_builtin,W9003,UNC,X99,暗黙的に `uint8_t' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,26,5,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,26,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,27,5,c_builtin,W0256,UNC,X99,char 型の値が関数 `unsigned char advalue_encode()' から返されています。
+W,../../../../services/ble_adconvert_service.c,27,5,c_builtin,W0268,UNC,X99,unsigned char 型の値が関数 `char advalue_encode()' から返されています。
+W,../../../../services/ble_adconvert_service.c,23,65,c_builtin,W0104,UNC,X99,仮引数 `p_advalue' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,23,86,c_builtin,W0104,UNC,X99,仮引数 `encoded_buffer' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,23,65,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_advalue' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,23,86,c_builtin,W0105,UNC,X99,ポインタ仮引数 `encoded_buffer' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,36,13,c_builtin,W1076,UNC,X99,関数 `on_connect' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../services/ble_adconvert_service.c,38,24,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,36,50,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,38,49,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,36,83,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,36,50,c_builtin,W0104,UNC,X99,仮引数 `p_adconvert_service' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,36,83,c_builtin,W0104,UNC,X99,仮引数 `p_ble_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,36,50,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_adconvert_service' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,36,83,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_ble_evt' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,46,13,c_builtin,W1076,UNC,X99,関数 `on_disconnect' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../services/ble_adconvert_service.c,49,24,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,46,53,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,49,40,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,49,40,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,49,40,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,46,53,c_builtin,W0104,UNC,X99,仮引数 `p_adconvert_service' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,46,86,c_builtin,W0104,UNC,X99,仮引数 `p_ble_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,46,53,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_adconvert_service' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,46,86,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_ble_evt' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,57,13,c_builtin,W1076,UNC,X99,関数 `on_write' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../services/ble_adconvert_service.c,60,17,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,57,93,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,60,48,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,57,48,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,60,17,c_builtin,W0248,UNC,X99,暗黙的に unsigned short 型から signed int 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,60,17,c_builtin,W9003,UNC,X99,暗黙的に `uint16_t' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,60,65,c_builtin,W0248,UNC,X99,暗黙的に unsigned short 型から signed int 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,60,65,c_builtin,W9003,UNC,X99,暗黙的に `uint16_t' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,62,31,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,57,48,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,66,40,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,57,93,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,66,56,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,57,93,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,66,40,c_builtin,W0748,UNC,X99,暗黙的に unsigned short 型から unsigned char 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,66,40,c_builtin,W9003,UNC,X99,暗黙的に `uint16_t' 型のオブジェクトが `uint8_t const' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,67,32,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,57,48,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,57,48,c_builtin,W0104,UNC,X99,仮引数 `p_adconvert_service' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,57,93,c_builtin,W0104,UNC,X99,仮引数 `p_ble_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,57,48,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_adconvert_service' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,57,93,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_ble_evt' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,66,30,c_builtin,W1073,UNC,X99,関数 `bds_uint16_decode' の戻り値を破棄しています。
+W,../../../../services/ble_adconvert_service.c,80,13,c_builtin,W1076,UNC,X99,関数 `on_rw_authorize_request' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../services/ble_adconvert_service.c,82,69,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,80,102,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,83,29,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,83,19,c_builtin,W0246,UNC,X99,暗黙的に unsigned char 型から signed int 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,83,19,c_builtin,W9003,UNC,X99,暗黙的に `uint8_t' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,85,28,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,80,102,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,86,20,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,85,68,c_builtin,W0246,UNC,X99,暗黙的に unsigned char 型から signed int 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,85,68,c_builtin,W9003,UNC,X99,暗黙的に `uint8_t' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,87,28,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,80,102,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,88,20,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,87,68,c_builtin,W0246,UNC,X99,暗黙的に unsigned char 型から signed int 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,87,68,c_builtin,W9003,UNC,X99,暗黙的に `uint8_t' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,89,28,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,80,102,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,90,20,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,89,68,c_builtin,W0246,UNC,X99,暗黙的に unsigned char 型から signed int 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,89,68,c_builtin,W9003,UNC,X99,暗黙的に `uint8_t' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,82,44,c_builtin,W0100,UNC,X99,変数 `p_auth_req' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,80,63,c_builtin,W0031,UNC,X99,仮引数 `p_adconvert_service' は、この関数の中で使われていません。
+W,../../../../services/ble_adconvert_service.c,80,63,c_builtin,W0104,UNC,X99,仮引数 `p_adconvert_service' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,80,102,c_builtin,W0104,UNC,X99,仮引数 `p_gatts_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,80,63,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_adconvert_service' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,80,102,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_gatts_evt' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,105,22,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,103,98,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,114,53,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,103,98,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,117,68,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,103,98,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,103,65,c_builtin,W0104,UNC,X99,仮引数 `p_adconvert_service' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,103,98,c_builtin,W0104,UNC,X99,仮引数 `p_ble_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,103,65,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_adconvert_service' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,103,98,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_ble_evt' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,132,24,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,126,63,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,132,64,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,126,121,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,133,24,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,126,63,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,133,40,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,133,40,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,133,40,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,135,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,135,5,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,135,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,135,5,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,135,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,138,41,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,138,101,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,126,63,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,138,41,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,138,41,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,139,21,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,139,21,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,139,21,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../services/ble_adconvert_service.c,145,85,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,126,121,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,145,37,c_builtin,W1047,UNC,X99,構造体、共用体、あるいは配列の初期化子がリテラルではありません。
+W,../../../../services/ble_adconvert_service.c,149,12,c_builtin,W0459,UNC,X99,変数 `add_advalue_params' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,148,27,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../services/ble_adconvert_service.c,151,46,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,151,46,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,151,46,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,152,46,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,152,46,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,153,60,c_builtin,W9003,UNC,X99,暗黙的に `uint8_t' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,155,46,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `unsigned char:1' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,156,46,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `unsigned char:1' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,162,54,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,126,63,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,162,114,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,126,63,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,163,21,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,163,21,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,163,21,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../services/ble_adconvert_service.c,168,12,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,168,12,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,168,12,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `uint32_t' に型変換されています。
+W,../../../../services/ble_adconvert_service.c,168,12,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,168,5,c_builtin,W0304,UNC,X99,signed int 型の値が関数 `unsigned long ble_adconvert_service_init()' から返されています。
+W,../../../../services/ble_adconvert_service.c,147,13,c_builtin,W0100,UNC,X99,変数 `advalue_encoded_value' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,126,63,c_builtin,W0104,UNC,X99,仮引数 `p_adconvert_service' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,126,121,c_builtin,W0104,UNC,X99,仮引数 `p_adconvert_service_init' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,126,63,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_adconvert_service' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,126,10,c_builtin,W1071,UNC,X99,関数 `ble_adconvert_service_init' には複数の終了点があります。
+W,../../../../services/ble_adconvert_service.c,149,11,c_builtin,W1073,UNC,X99,関数 `memset' の戻り値を破棄しています。
+W,../../../../services/ble_adconvert_service.c,178,12,c_builtin,W0459,UNC,X99,変数 `gatts_value' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,174,23,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../services/ble_adconvert_service.c,180,41,c_builtin,W9003,UNC,X99,暗黙的に `uint8_t' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,181,27,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,181,27,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,184,54,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,172,70,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,184,88,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,172,70,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,175,13,c_builtin,W0100,UNC,X99,変数 `encoded_value' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,172,70,c_builtin,W0104,UNC,X99,仮引数 `p_adconvert_service' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,172,125,c_builtin,W0104,UNC,X99,仮引数 `p_advalue' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,172,70,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_adconvert_service' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,172,125,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_advalue' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,178,11,c_builtin,W1073,UNC,X99,関数 `memset' の戻り値を破棄しています。
+W,../../../../services/ble_adconvert_service.c,190,25,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,190,25,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,190,25,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `uint32_t' に型変換されています。
+W,../../../../services/ble_adconvert_service.c,190,25,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,192,28,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,188,71,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,192,45,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,192,28,c_builtin,W0248,UNC,X99,暗黙的に unsigned short 型から signed int 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,192,28,c_builtin,W9003,UNC,X99,暗黙的に `uint16_t' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,199,16,c_builtin,W0459,UNC,X99,変数 `hvx_params' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,194,32,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../services/ble_adconvert_service.c,201,43,c_builtin,W9003,UNC,X99,暗黙的に `uint8_t' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,202,48,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,188,71,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,203,29,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,203,29,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,203,29,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,205,29,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,205,29,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,208,56,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/ble_adconvert_service.c,188,71,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/ble_adconvert_service.c,195,17,c_builtin,W0100,UNC,X99,変数 `encoded_value' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,196,18,c_builtin,W0100,UNC,X99,変数 `hvx_len' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,212,20,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/ble_adconvert_service.c,212,20,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../services/ble_adconvert_service.c,212,20,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `uint32_t' に型変換されています。
+W,../../../../services/ble_adconvert_service.c,212,20,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../services/ble_adconvert_service.c,188,71,c_builtin,W0104,UNC,X99,仮引数 `p_adconvert_service' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,188,126,c_builtin,W0104,UNC,X99,仮引数 `p_advalue' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,188,71,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_adconvert_service' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,188,126,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_advalue' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.c,199,15,c_builtin,W1073,UNC,X99,関数 `memset' の戻り値を破棄しています。
+W,../../../../services/ble_adconvert_service.h,19,49,c_builtin,W0830,UNC,X99,"列挙子並びの末尾にカンマ `,' があります。"
+W,../../../../services/ble_adconvert_service.h,42,5,c_builtin,W0551,UNC,X99,共用体型指定子が定義されています。
+W,../../../../services/ble_adconvert_service.h,6,1,c_builtin,W0070,UNC,X99,インクルードされている </cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h> の内容は翻訳単位の中で全く参照されていません。削除することができます。
+W,../../../../services/ble_adconvert_service.c,48,5,c_builtin,W0085,UNC,X99,この文には副作用がありません。誤りのある可能性が高いです。
+W,../../../../services/ble_adconvert_service.c,135,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../services/ble_adconvert_service.c,135,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../services/ble_adconvert_service.c,141,9,c_builtin,W0431,UNC,X99,この行は以前の同じ深さのインデントより左にずれています。
+W,../../../../services/ble_adconvert_service.c,108,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/ble_adconvert_service.c,109,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/ble_adconvert_service.c,111,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/ble_adconvert_service.c,112,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/ble_adconvert_service.c,114,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/ble_adconvert_service.c,115,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/ble_adconvert_service.c,117,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/ble_adconvert_service.c,118,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/ble_adconvert_service.c,121,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/ble_adconvert_service.c,,,c_builtin,W0059,UNC,X99,このファイルの行末に Ctrl-M(^M) 制御文字が見つかりました。
+W,../../../../services/ble_adconvert_service.h,,,c_builtin,W0059,UNC,X99,このファイルの行末に Ctrl-M(^M) 制御文字が見つかりました。

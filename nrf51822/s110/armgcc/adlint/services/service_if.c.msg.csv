@@ -1,0 +1,142 @@
+V,3.2.14,2015-10-23 23:12:43 +0900,/cygdrive/e/Prog/BLE/nRF51_SDK_9.0.0_2e23562/projects/adc_test/nrf51822/s110/armgcc/adlint
+W,../../../../services/service_if.h,19,1,c_builtin,W0576,UNC,X99,基本ソース文字集合に含まれない文字が、ソースファイル `../../../../services/service_if.h' のコメントの中で使われています。
+W,../../../../services/service_if.h,36,8,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/service_if.c,4,1,c_builtin,W0026,UNC,X99,`/cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h' は、既にこのファイルから間接的にインクルードされています。
+E,/usr/include/sys/cdefs.h,275,21,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+E,/usr/include/sys/cdefs.h,291,21,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+E,/usr/include/sys/cdefs.h,307,23,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+E,/usr/include/sys/cdefs.h,320,21,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+W,../../../../services/ble_adconvert_service.h,6,1,c_builtin,W0025,UNC,X99,`/cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h' は、既にこのファイルから直接インクルードされています。
+W,../../../../services/ble_adconvert_service.h,6,1,c_builtin,W0026,UNC,X99,`/cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h' は、既にこのファイルから間接的にインクルードされています。
+W,../../../../services/ble_adconvert_service.h,8,1,c_builtin,W0026,UNC,X99,`../../../../../../components/softdevice/s110/headers/ble.h' は、既にこのファイルから間接的にインクルードされています。
+W,../../../../services/ble_adconvert_service.h,22,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.h,106,8,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/service_if.c,35,13,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/service_if.c,52,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,935,120,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,945,89,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,972,146,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,993,103,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1001,65,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1026,143,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1042,110,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1054,84,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1064,92,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1074,95,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1085,103,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1095,97,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1109,159,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1126,111,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1151,131,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1177,201,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1197,133,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1217,157,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1236,203,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1248,121,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1263,128,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1277,83,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1294,97,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1308,107,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1316,67,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1333,180,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1341,77,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_l2cap.h,137,85,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_l2cap.h,149,89,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_l2cap.h,169,132,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,286,173,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,304,161,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,324,165,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,341,157,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,359,189,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,378,111,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,395,151,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,419,127,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,432,106,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,382,129,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,403,148,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,428,226,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,447,149,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,466,132,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,489,132,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,526,119,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,549,143,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,566,179,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,603,155,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,631,152,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,254,90,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,281,83,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,318,91,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,347,111,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,368,124,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,383,127,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,396,83,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,411,122,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,427,90,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,446,84,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+W,../../../../services/service_if.c,21,13,c_builtin,W1076,UNC,X99,関数 `on_adconvert_service_evt' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../services/service_if.c,23,18,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/service_if.c,21,115,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../services/service_if.c,21,64,c_builtin,W0031,UNC,X99,仮引数 `p_adconvert_service' は、この関数の中で使われていません。
+W,../../../../services/service_if.c,21,64,c_builtin,W0104,UNC,X99,仮引数 `p_adconvert_service' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/service_if.c,21,115,c_builtin,W0104,UNC,X99,仮引数 `p_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/service_if.c,21,64,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_adconvert_service' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/service_if.c,21,115,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_evt' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/service_if.c,53,12,c_builtin,W0459,UNC,X99,変数 `adconvert_service_init' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../services/service_if.c,49,37,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../services/service_if.c,56,82,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/service_if.c,56,82,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../services/service_if.c,56,82,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../services/service_if.c,59,21,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/service_if.c,59,21,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../services/service_if.c,59,21,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../services/service_if.c,64,12,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/service_if.c,64,12,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../services/service_if.c,64,12,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `uint32_t' に型変換されています。
+W,../../../../services/service_if.c,64,12,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../services/service_if.c,64,5,c_builtin,W0304,UNC,X99,signed int 型の値が関数 `unsigned long bluetooth_init()' から返されています。
+W,../../../../services/service_if.c,48,17,c_builtin,W0100,UNC,X99,変数 `err_code' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../services/service_if.c,46,10,c_builtin,W1071,UNC,X99,関数 `bluetooth_init' には複数の終了点があります。
+W,../../../../services/service_if.c,53,11,c_builtin,W1073,UNC,X99,関数 `memset' の戻り値を破棄しています。
+W,../../../../services/service_if.c,73,39,c_builtin,W0104,UNC,X99,仮引数 `p_ble_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/service_if.c,73,39,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_ble_evt' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../services/service_if.c,85,22,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/service_if.c,85,22,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../services/service_if.c,85,22,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../services/service_if.c,85,51,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/service_if.c,85,51,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../services/service_if.c,85,51,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../services/service_if.c,86,9,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../services/service_if.c,86,9,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../services/service_if.c,86,9,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../services/service_if.c,86,9,c_builtin,W0609,UNC,X99,この論理演算の結果は常に真になります。
+W,../../../../services/service_if.c,86,9,c_builtin,W0612,UNC,X99,この if 条件式の値は常に真です。
+W,../../../../services/service_if.c,86,9,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../services/service_if.c,80,14,c_builtin,W0100,UNC,X99,変数 `err_code' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../services/service_if.c,78,34,c_builtin,W0104,UNC,X99,仮引数 `adc' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../services/ble_adconvert_service.h,19,49,c_builtin,W0830,UNC,X99,"列挙子並びの末尾にカンマ `,' があります。"
+W,../../../../services/ble_adconvert_service.h,42,5,c_builtin,W0551,UNC,X99,共用体型指定子が定義されています。
+W,../../../../services/service_if.h,16,1,c_builtin,W0070,UNC,X99,インクルードされている </cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h> の内容は翻訳単位の中で全く参照されていません。削除することができます。
+W,../../../../services/service_if.c,4,1,c_builtin,W0070,UNC,X99,インクルードされている </cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h> の内容は翻訳単位の中で全く参照されていません。削除することができます。
+W,../../../../services/ble_adconvert_service.h,6,1,c_builtin,W0070,UNC,X99,インクルードされている </cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h> の内容は翻訳単位の中で全く参照されていません。削除することができます。
+W,../../../../services/ble_adconvert_service.h,10,1,c_builtin,W0071,UNC,X99,"インクルードされている ""../../../../../../components/libraries/util/app_util_bds.h"" の内容は翻訳単位の中で全く参照されていません。削除することができます。"
+W,../../../../services/service_if.c,26,102,c_builtin,W0085,UNC,X99,この文には副作用がありません。誤りのある可能性が高いです。
+W,../../../../services/service_if.c,29,103,c_builtin,W0085,UNC,X99,この文には副作用がありません。誤りのある可能性が高いです。
+W,../../../../services/service_if.c,32,92,c_builtin,W0085,UNC,X99,この文には副作用がありません。誤りのある可能性が高いです。
+W,../../../../services/service_if.c,86,9,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../services/service_if.c,86,9,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../services/service_if.c,27,13,c_builtin,W0431,UNC,X99,この行は以前の同じ深さのインデントより左にずれています。
+W,../../../../services/service_if.c,30,13,c_builtin,W0431,UNC,X99,この行は以前の同じ深さのインデントより左にずれています。
+W,../../../../services/service_if.c,33,13,c_builtin,W0431,UNC,X99,この行は以前の同じ深さのインデントより左にずれています。
+W,../../../../services/service_if.c,61,9,c_builtin,W0431,UNC,X99,この行は以前の同じ深さのインデントより左にずれています。
+W,../../../../services/service_if.c,26,102,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/service_if.c,27,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/service_if.c,29,103,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/service_if.c,30,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/service_if.c,32,92,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/service_if.c,33,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/service_if.c,36,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../services/service_if.c,,,c_builtin,W0059,UNC,X99,このファイルの行末に Ctrl-M(^M) 制御文字が見つかりました。
+W,../../../../services/service_if.h,,,c_builtin,W0059,UNC,X99,このファイルの行末に Ctrl-M(^M) 制御文字が見つかりました。
+W,../../../../services/ble_adconvert_service.h,,,c_builtin,W0059,UNC,X99,このファイルの行末に Ctrl-M(^M) 制御文字が見つかりました。

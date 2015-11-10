@@ -1,0 +1,1225 @@
+VER,3.2.14,2015-10-23 23:12:02 +0900,/cygdrive/e/Prog/BLE/nRF51_SDK_9.0.0_2e23562/projects/adc_test/nrf51822/s110/armgcc/adlint
+DEP,../../../../main.c,27,1,I,</cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h>
+DEP,../../../../main.c,28,1,I,</usr/include/string.h>
+DEP,../../../../main.c,29,1,I,"""../../../../../../components/libraries/util/nordic_common.h"""
+DEP,../../../../main.c,30,1,I,"""../../../../../../components/device/nrf.h"""
+DEP,../../../../main.c,31,1,I,"""../../../../../../components/libraries/util/app_error.h"""
+DEP,../../../../main.c,32,1,I,"""../../../../../../components/device/nrf51_bitfields.h"""
+DEP,../../../../main.c,33,1,I,"""../../../../../../components/drivers_nrf/hal/nrf_adc.h"""
+DEP,../../../../main.c,34,1,I,"""../../../../../../components/softdevice/s110/headers/ble.h"""
+DEP,../../../../main.c,35,1,I,"""../../../../../../components/softdevice/s110/headers/ble_hci.h"""
+DEP,../../../../main.c,36,1,I,"""../../../../../../components/ble/common/ble_srv_common.h"""
+DEP,../../../../main.c,37,1,I,"""../../../../../../components/ble/common/ble_advdata.h"""
+DEP,../../../../main.c,38,1,I,"""../../../../../../components/ble/ble_advertising/ble_advertising.h"""
+DEP,../../../../main.c,39,1,I,"""../../../../../../components/ble/common/ble_conn_params.h"""
+DEP,../../../../main.c,40,1,I,"""../../../../../../examples/bsp/boards.h"""
+DEP,../../../../main.c,41,1,I,"""../../../../../../components/softdevice/common/softdevice_handler/softdevice_handler.h"""
+DEP,../../../../main.c,42,1,I,"""../../../../../../components/libraries/timer/app_timer.h"""
+DEP,../../../../main.c,43,1,I,"""../../../../../../components/ble/device_manager/device_manager.h"""
+DEF,../../../../config/device_manager_cnfg.h,27,1,M,DEVICE_MANAGER_CNFG_H__,O
+DEF,../../../../config/device_manager_cnfg.h,42,1,M,DEVICE_MANAGER_MAX_APPLICATIONS,O
+DEF,../../../../config/device_manager_cnfg.h,52,1,M,DEVICE_MANAGER_MAX_CONNECTIONS,O
+DEF,../../../../config/device_manager_cnfg.h,67,1,M,DEVICE_MANAGER_MAX_BONDS,O
+DEF,../../../../config/device_manager_cnfg.h,78,1,M,DM_GATT_CCCD_COUNT,O
+DEF,../../../../config/device_manager_cnfg.h,92,1,M,DEVICE_MANAGER_APP_CONTEXT_SIZE,O
+DEP,../../../../main.c,44,1,I,"""../../../../../../components/drivers_nrf/pstorage/pstorage.h"""
+DEF,../../../../config/pstorage_platform.h,20,1,M,PSTORAGE_PL_H__,O
+DEP,../../../../config/pstorage_platform.h,22,1,I,</cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h>
+DEP,../../../../config/pstorage_platform.h,23,1,I,"""../../../../../../components/device/nrf.h"""
+DEF,../../../../config/pstorage_platform.h,30,1,M,PSTORAGE_FLASH_PAGE_SIZE,O
+DEF,../../../../config/pstorage_platform.h,31,1,M,PSTORAGE_FLASH_EMPTY_MASK,O
+DEF,../../../../config/pstorage_platform.h,41,1,M,PSTORAGE_FLASH_PAGE_END,O
+DEF,../../../../config/pstorage_platform.h,43,1,M,PSTORAGE_NUM_OF_PAGES,O
+DEF,../../../../config/pstorage_platform.h,44,1,M,PSTORAGE_MIN_BLOCK_SIZE,O
+DEF,../../../../config/pstorage_platform.h,46,1,M,PSTORAGE_DATA_START_ADDR,O
+DEF,../../../../config/pstorage_platform.h,48,1,M,PSTORAGE_DATA_END_ADDR,O
+DEF,../../../../config/pstorage_platform.h,49,1,M,PSTORAGE_SWAP_ADDR,O
+DEF,../../../../config/pstorage_platform.h,51,1,M,PSTORAGE_MAX_BLOCK_SIZE,O
+DEF,../../../../config/pstorage_platform.h,52,1,M,PSTORAGE_CMD_QUEUE_SIZE,O
+DEP,../../../../main.c,45,1,I,"""../../../../../../components/libraries/trace/app_trace.h"""
+DEP,../../../../main.c,46,1,I,"""../../../../../../examples/bsp/bsp.h"""
+DEP,../../../../main.c,47,1,I,"""../../../../../../examples/bsp/bsp_btn_ble.h"""
+DEP,../../../../main.c,48,1,I,"""../../../../services/ble_adconvert_service.h"""
+DEF,../../../../services/ble_adconvert_service.h,4,1,M,BLE_ADCONVERT_SERVICE_H__,O
+DEP,../../../../services/ble_adconvert_service.h,6,1,I,</cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h>
+DEP,../../../../services/ble_adconvert_service.h,7,1,I,</cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h>
+DEP,../../../../services/ble_adconvert_service.h,8,1,I,"""../../../../../../components/softdevice/s110/headers/ble.h"""
+DEP,../../../../services/ble_adconvert_service.h,9,1,I,"""../../../../../../components/ble/common/ble_srv_common.h"""
+DEP,../../../../services/ble_adconvert_service.h,10,1,I,"""../../../../../../components/libraries/util/app_util_bds.h"""
+DEP,../../../../main.c,49,1,I,"""../../../../services/service_if.h"""
+DEF,../../../../services/service_if.h,14,1,M,BLE_DS_IF_H__,O
+DEP,../../../../services/service_if.h,16,1,I,</cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h>
+DEP,../../../../services/service_if.h,17,1,I,"""../../../../../../components/softdevice/s110/headers/ble.h"""
+DEF,../../../../main.c,51,1,M,IS_SRVC_CHANGED_CHARACT_PRESENT,O
+DEF,../../../../main.c,53,1,M,DEVICE_NAME,O
+DEF,../../../../main.c,54,1,M,MANUFACTURER_NAME,O
+DEF,../../../../main.c,55,1,M,APP_ADV_INTERVAL,O
+DEF,../../../../main.c,56,1,M,APP_ADV_TIMEOUT_IN_SECONDS,O
+DEF,../../../../main.c,58,1,M,APP_TIMER_PRESCALER,O
+DEF,../../../../main.c,59,1,M,APP_TIMER_MAX_TIMERS,O
+DEF,../../../../main.c,60,1,M,APP_TIMER_OP_QUEUE_SIZE,O
+DEF,../../../../main.c,62,1,M,APP_TIMER_ADC_INTERVAL,O
+DEF,../../../../main.c,65,1,M,MIN_CONN_INTERVAL,O
+DEF,../../../../main.c,66,1,M,MAX_CONN_INTERVAL,O
+DEF,../../../../main.c,67,1,M,SLAVE_LATENCY,O
+DEF,../../../../main.c,68,1,M,CONN_SUP_TIMEOUT,O
+DEF,../../../../main.c,70,1,M,FIRST_CONN_PARAMS_UPDATE_DELAY,O
+DEF,../../../../main.c,71,1,M,NEXT_CONN_PARAMS_UPDATE_DELAY,O
+DEF,../../../../main.c,72,1,M,MAX_CONN_PARAMS_UPDATE_COUNT,O
+DEF,../../../../main.c,74,1,M,SEC_PARAM_BOND,O
+DEF,../../../../main.c,75,1,M,SEC_PARAM_MITM,O
+DEF,../../../../main.c,76,1,M,SEC_PARAM_IO_CAPABILITIES,O
+DEF,../../../../main.c,77,1,M,SEC_PARAM_OOB,O
+DEF,../../../../main.c,78,1,M,SEC_PARAM_MIN_KEY_SIZE,O
+DEF,../../../../main.c,79,1,M,SEC_PARAM_MAX_KEY_SIZE,O
+DEF,../../../../main.c,81,1,M,DEAD_BEEF,O
+DEF,../../../../main.c,85,1,M,ADC_THRESHOLD,O
+DEF,../../../../main.c,86,1,M,ADC_PERIOD,O
+DEF,../../../../config/pstorage_platform.h,25,26,F,I,F,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),4
+MET,FN_UNUV,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,0
+MET,FN_PATH,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,1
+DEF,../../../../config/pstorage_platform.h,33,26,F,I,F,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),7
+DEF,../../../../config/pstorage_platform.h,35,13,V,I,B,N,bootloader_addr,uint32_t
+DEP,../../../../config/pstorage_platform.h,38,30,X,F,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),R,pstorage_flash_page_size,uint16_t pstorage_flash_page_size()
+DEP,../../../../config/pstorage_platform.h,38,30,C,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),pstorage_flash_page_size,uint16_t pstorage_flash_page_size()
+MET,FN_UNUV,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,0
+MET,FN_PATH,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,2
+DCL,../../../../config/pstorage_platform.h,67,6,F,X,F,E,pstorage_sys_event_handler,void pstorage_sys_event_handler(uint32_t)
+DCL,../../../../services/ble_adconvert_service.h,75,10,F,X,F,E,ble_adconvert_service_init,"uint32_t ble_adconvert_service_init(ble_adconvert_service_t *,ble_adconvert_service_init_t const *)"
+DCL,../../../../services/ble_adconvert_service.h,78,6,F,X,F,E,ble_adconvert_service_on_ble_evt,"void ble_adconvert_service_on_ble_evt(ble_adconvert_service_t *,ble_evt_t *)"
+DCL,../../../../services/ble_adconvert_service.h,91,10,F,X,F,E,ble_adconvert_service_advalue_set,"uint32_t ble_adconvert_service_advalue_set(ble_adconvert_service_t *,ble_adconvert_service_advalue_t *)"
+DCL,../../../../services/ble_adconvert_service.h,104,10,F,X,F,E,ble_adconvert_service_advalue_send,"uint32_t ble_adconvert_service_advalue_send(ble_adconvert_service_t *,ble_adconvert_service_advalue_t *)"
+DCL,../../../../services/service_if.h,24,10,F,X,F,E,bluetooth_init,uint32_t bluetooth_init(void)
+DCL,../../../../services/service_if.h,32,6,F,X,F,E,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *)
+DCL,../../../../services/service_if.h,34,6,F,X,F,E,bluetooth_adc_send,void bluetooth_adc_send(uint16_t)
+DEF,../../../../main.c,88,45,V,I,F,S,m_app_handle,dm_application_instance_t
+DEF,../../../../main.c,90,45,V,I,F,S,m_conn_handle,uint16_t
+DEF,../../../../main.c,92,45,V,I,F,S,m_app_timer_id,app_timer_id_t
+DEF,../../../../main.c,94,45,V,I,F,S,m_adc_value,uint16_t volatile
+DEF,../../../../main.c,97,19,V,I,F,S,m_adv_uuids,(ble_uuid_t)[1]
+DEF,../../../../main.c,106,6,F,X,F,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",6
+DEF,../../../../main.c,106,33,V,I,P,N,error_code,uint32_t
+DEF,../../../../main.c,106,54,V,I,P,N,line_num,uint32_t
+DEF,../../../../main.c,106,80,V,I,P,N,p_file_name,uint8_t const *
+DEP,../../../../main.c,109,9,X,F,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",R,__WFI,void __WFI(void)
+DEP,../../../../main.c,109,14,C,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",__WFI,void __WFI(void)
+MET,FN_UNUV,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,3
+MET,FN_PATH,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,1
+DEF,../../../../main.c,125,6,F,X,F,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",4
+DEF,../../../../main.c,125,35,V,I,P,N,line_num,uint16_t
+DEF,../../../../main.c,125,61,V,I,P,N,p_file_name,uint8_t const *
+DEP,../../../../main.c,127,5,X,F,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,127,22,C,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,0
+MET,FN_PATH,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,1
+DEF,../../../../main.c,131,13,F,I,F,timer_timeout_handler,void timer_timeout_handler(void *),6
+DEF,../../../../main.c,131,42,V,I,P,N,p_context,void *
+DEP,../../../../main.c,134,5,X,F,timer_timeout_handler,void timer_timeout_handler(void *),R,nrf_gpio_pin_toggle,void nrf_gpio_pin_toggle(uint32_t)
+DEP,../../../../main.c,134,24,C,timer_timeout_handler,void timer_timeout_handler(void *),nrf_gpio_pin_toggle,void nrf_gpio_pin_toggle(uint32_t)
+DEP,../../../../main.c,135,5,X,F,timer_timeout_handler,void timer_timeout_handler(void *),R,nrf_adc_start,void nrf_adc_start(void)
+DEP,../../../../main.c,135,18,C,timer_timeout_handler,void timer_timeout_handler(void *),nrf_adc_start,void nrf_adc_start(void)
+MET,FN_UNUV,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,0
+MET,FN_PATH,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,1
+DEF,../../../../main.c,143,13,F,I,F,timers_init,void timers_init(void),11
+DEF,../../../../main.c,145,14,V,I,B,N,err_code,uint32_t
+DEF,../../../../main.c,148,5,V,I,B,S,APP_TIMER_BUF,(uint32_t)[204]
+DEP,../../../../main.c,148,5,X,F,timers_init,void timers_init(void),R,app_timer_init,"uint32_t app_timer_init(uint32_t,uint8_t,uint8_t,void *,app_timer_evt_schedule_func_t)"
+DEP,../../../../main.c,148,5,C,timers_init,void timers_init(void),app_timer_init,"uint32_t app_timer_init(uint32_t,uint8_t,uint8_t,void *,app_timer_evt_schedule_func_t)"
+DEF,../../../../main.c,148,5,V,I,B,N,ERR_CODE,uint32_t
+DEF,../../../../main.c,148,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,148,5,X,F,timers_init,void timers_init(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,148,5,C,timers_init,void timers_init(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,151,33,X,V,timers_init,void timers_init(void),R,m_app_timer_id
+DEP,../../../../main.c,151,75,X,F,timers_init,void timers_init(void),R,timer_timeout_handler,void timer_timeout_handler(void *)
+DEP,../../../../main.c,151,16,X,F,timers_init,void timers_init(void),R,app_timer_create,"uint32_t app_timer_create(app_timer_id_t *,app_timer_mode_t,app_timer_timeout_handler_t)"
+DEP,../../../../main.c,151,33,X,V,timers_init,void timers_init(void),W,m_app_timer_id
+DEP,../../../../main.c,151,32,C,timers_init,void timers_init(void),app_timer_create,"uint32_t app_timer_create(app_timer_id_t *,app_timer_mode_t,app_timer_timeout_handler_t)"
+DEF,../../../../main.c,152,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,152,5,X,F,timers_init,void timers_init(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,152,5,C,timers_init,void timers_init(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,timers_init,void timers_init(void),../../../../main.c,143,13,1
+MET,FN_PATH,timers_init,void timers_init(void),../../../../main.c,143,13,4
+DEF,../../../../main.c,161,13,F,I,F,gap_params_init,void gap_params_init(void),27
+DEF,../../../../main.c,163,29,V,I,B,N,err_code,uint32_t
+DEF,../../../../main.c,164,29,V,I,B,N,gap_conn_params,ble_gap_conn_params_t
+DEF,../../../../main.c,165,29,V,I,B,N,sec_mode,ble_gap_conn_sec_mode_t
+DEP,../../../../main.c,171,43,X,F,gap_params_init,void gap_params_init(void),R,strlen,size_t strlen(char const *)
+DEP,../../../../main.c,171,49,C,gap_params_init,void gap_params_init(void),strlen,size_t strlen(char const *)
+DEP,../../../../main.c,169,16,X,F,gap_params_init,void gap_params_init(void),R,sd_ble_gap_device_name_set,"uint32_t sd_ble_gap_device_name_set(ble_gap_conn_sec_mode_t const *,uint8_t const *,uint16_t)"
+DEP,../../../../main.c,169,42,C,gap_params_init,void gap_params_init(void),sd_ble_gap_device_name_set,"uint32_t sd_ble_gap_device_name_set(ble_gap_conn_sec_mode_t const *,uint8_t const *,uint16_t)"
+DEF,../../../../main.c,172,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,172,5,X,F,gap_params_init,void gap_params_init(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,172,5,C,gap_params_init,void gap_params_init(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,178,5,X,F,gap_params_init,void gap_params_init(void),R,memset,"void * memset(void *,int,size_t)"
+DEP,../../../../main.c,178,11,C,gap_params_init,void gap_params_init(void),memset,"void * memset(void *,int,size_t)"
+DEP,../../../../main.c,185,16,X,F,gap_params_init,void gap_params_init(void),R,sd_ble_gap_ppcp_set,uint32_t sd_ble_gap_ppcp_set(ble_gap_conn_params_t const *)
+DEP,../../../../main.c,185,35,C,gap_params_init,void gap_params_init(void),sd_ble_gap_ppcp_set,uint32_t sd_ble_gap_ppcp_set(ble_gap_conn_params_t const *)
+DEF,../../../../main.c,186,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,186,5,X,F,gap_params_init,void gap_params_init(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,186,5,C,gap_params_init,void gap_params_init(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,0
+MET,FN_PATH,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,4
+DEF,../../../../main.c,215,13,F,I,F,services_init,void services_init(void),17
+DEP,../../../../main.c,218,5,X,F,services_init,void services_init(void),R,bluetooth_init,uint32_t bluetooth_init(void)
+DEP,../../../../main.c,218,19,C,services_init,void services_init(void),bluetooth_init,uint32_t bluetooth_init(void)
+MET,FN_UNUV,services_init,void services_init(void),../../../../main.c,215,13,0
+MET,FN_PATH,services_init,void services_init(void),../../../../main.c,215,13,1
+DEF,../../../../main.c,244,13,F,I,F,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),10
+DEF,../../../../main.c,244,56,V,I,P,N,p_evt,ble_conn_params_evt_t *
+DEF,../../../../main.c,246,14,V,I,B,N,err_code,uint32_t
+DEP,../../../../main.c,250,20,X,F,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),R,sd_ble_gap_disconnect,"uint32_t sd_ble_gap_disconnect(uint16_t,uint8_t)"
+DEP,../../../../main.c,250,42,X,V,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),R,m_conn_handle
+DEP,../../../../main.c,250,41,C,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),sd_ble_gap_disconnect,"uint32_t sd_ble_gap_disconnect(uint16_t,uint8_t)"
+DEF,../../../../main.c,251,9,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,251,9,X,F,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,251,9,C,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,0
+MET,FN_PATH,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,3
+DEF,../../../../main.c,260,13,F,I,F,conn_params_error_handler,void conn_params_error_handler(uint32_t),4
+DEF,../../../../main.c,260,48,V,I,P,N,nrf_error,uint32_t
+DEP,../../../../main.c,262,5,X,F,conn_params_error_handler,void conn_params_error_handler(uint32_t),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,262,5,C,conn_params_error_handler,void conn_params_error_handler(uint32_t),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,0
+MET,FN_PATH,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,1
+DEF,../../../../main.c,268,13,F,I,F,conn_params_init,void conn_params_init(void),19
+DEF,../../../../main.c,270,28,V,I,B,N,err_code,uint32_t
+DEF,../../../../main.c,271,28,V,I,B,N,cp_init,ble_conn_params_init_t
+DEP,../../../../main.c,273,5,X,F,conn_params_init,void conn_params_init(void),R,memset,"void * memset(void *,int,size_t)"
+DEP,../../../../main.c,273,11,C,conn_params_init,void conn_params_init(void),memset,"void * memset(void *,int,size_t)"
+DEP,../../../../main.c,281,46,X,F,conn_params_init,void conn_params_init(void),R,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *)
+DEP,../../../../main.c,282,46,X,F,conn_params_init,void conn_params_init(void),R,conn_params_error_handler,void conn_params_error_handler(uint32_t)
+DEP,../../../../main.c,284,16,X,F,conn_params_init,void conn_params_init(void),R,ble_conn_params_init,uint32_t ble_conn_params_init(ble_conn_params_init_t const *)
+DEP,../../../../main.c,284,36,C,conn_params_init,void conn_params_init(void),ble_conn_params_init,uint32_t ble_conn_params_init(ble_conn_params_init_t const *)
+DEF,../../../../main.c,285,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,285,5,X,F,conn_params_init,void conn_params_init(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,285,5,C,conn_params_init,void conn_params_init(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,0
+MET,FN_PATH,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,2
+DEF,../../../../main.c,293,13,F,I,F,sleep_mode_enter,void sleep_mode_enter(void),13
+DEP,../../../../main.c,295,25,X,F,sleep_mode_enter,void sleep_mode_enter(void),R,bsp_indication_set,uint32_t bsp_indication_set(bsp_indication_t)
+DEP,../../../../main.c,295,43,C,sleep_mode_enter,void sleep_mode_enter(void),bsp_indication_set,uint32_t bsp_indication_set(bsp_indication_t)
+DEF,../../../../main.c,295,14,V,I,B,N,err_code,uint32_t
+DEF,../../../../main.c,296,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,296,5,X,F,sleep_mode_enter,void sleep_mode_enter(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,296,5,C,sleep_mode_enter,void sleep_mode_enter(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,299,16,X,F,sleep_mode_enter,void sleep_mode_enter(void),R,bsp_btn_ble_sleep_mode_prepare,uint32_t bsp_btn_ble_sleep_mode_prepare(void)
+DEP,../../../../main.c,299,46,C,sleep_mode_enter,void sleep_mode_enter(void),bsp_btn_ble_sleep_mode_prepare,uint32_t bsp_btn_ble_sleep_mode_prepare(void)
+DEF,../../../../main.c,300,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,300,5,X,F,sleep_mode_enter,void sleep_mode_enter(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,300,5,C,sleep_mode_enter,void sleep_mode_enter(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,303,16,X,F,sleep_mode_enter,void sleep_mode_enter(void),R,sd_power_system_off,uint32_t sd_power_system_off(void)
+DEP,../../../../main.c,303,35,C,sleep_mode_enter,void sleep_mode_enter(void),sd_power_system_off,uint32_t sd_power_system_off(void)
+DEF,../../../../main.c,304,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,304,5,X,F,sleep_mode_enter,void sleep_mode_enter(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,304,5,C,sleep_mode_enter,void sleep_mode_enter(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,0
+MET,FN_PATH,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,8
+DEF,../../../../main.c,314,13,F,I,F,on_adv_evt,void on_adv_evt(ble_adv_evt_t),17
+DEF,../../../../main.c,314,38,V,I,P,N,ble_adv_evt,ble_adv_evt_t
+DEF,../../../../main.c,316,14,V,I,B,N,err_code,uint32_t
+DEP,../../../../main.c,321,24,X,F,on_adv_evt,void on_adv_evt(ble_adv_evt_t),R,bsp_indication_set,uint32_t bsp_indication_set(bsp_indication_t)
+DEP,../../../../main.c,321,42,C,on_adv_evt,void on_adv_evt(ble_adv_evt_t),bsp_indication_set,uint32_t bsp_indication_set(bsp_indication_t)
+DEF,../../../../main.c,322,13,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,322,13,X,F,on_adv_evt,void on_adv_evt(ble_adv_evt_t),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,322,13,C,on_adv_evt,void on_adv_evt(ble_adv_evt_t),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,325,13,X,F,on_adv_evt,void on_adv_evt(ble_adv_evt_t),R,sleep_mode_enter,void sleep_mode_enter(void)
+DEP,../../../../main.c,325,29,C,on_adv_evt,void on_adv_evt(ble_adv_evt_t),sleep_mode_enter,void sleep_mode_enter(void)
+MET,FN_UNUV,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,0
+MET,FN_PATH,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,4
+DEF,../../../../main.c,337,13,F,I,F,on_ble_evt,void on_ble_evt(ble_evt_t *),28
+DEF,../../../../main.c,337,36,V,I,P,N,p_ble_evt,ble_evt_t *
+DEF,../../../../main.c,339,14,V,I,B,N,err_code,uint32_t
+DEP,../../../../main.c,344,24,X,F,on_ble_evt,void on_ble_evt(ble_evt_t *),R,bsp_indication_set,uint32_t bsp_indication_set(bsp_indication_t)
+DEP,../../../../main.c,344,42,C,on_ble_evt,void on_ble_evt(ble_evt_t *),bsp_indication_set,uint32_t bsp_indication_set(bsp_indication_t)
+DEF,../../../../main.c,345,13,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,345,13,X,F,on_ble_evt,void on_ble_evt(ble_evt_t *),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,345,13,C,on_ble_evt,void on_ble_evt(ble_evt_t *),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,346,27,X,V,on_ble_evt,void on_ble_evt(ble_evt_t *),W,m_conn_handle
+DEP,../../../../main.c,348,24,X,F,on_ble_evt,void on_ble_evt(ble_evt_t *),R,app_timer_start,"uint32_t app_timer_start(app_timer_id_t,uint32_t,void *)"
+DEP,../../../../main.c,348,40,X,V,on_ble_evt,void on_ble_evt(ble_evt_t *),R,m_app_timer_id
+DEP,../../../../main.c,348,39,C,on_ble_evt,void on_ble_evt(ble_evt_t *),app_timer_start,"uint32_t app_timer_start(app_timer_id_t,uint32_t,void *)"
+DEF,../../../../main.c,349,13,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,349,13,X,F,on_ble_evt,void on_ble_evt(ble_evt_t *),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,349,13,C,on_ble_evt,void on_ble_evt(ble_evt_t *),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,350,24,X,F,on_ble_evt,void on_ble_evt(ble_evt_t *),R,sd_ble_gatts_sys_attr_set,"uint32_t sd_ble_gatts_sys_attr_set(uint16_t,uint8_t const *,uint16_t,uint32_t)"
+DEP,../../../../main.c,350,50,X,V,on_ble_evt,void on_ble_evt(ble_evt_t *),R,m_conn_handle
+DEP,../../../../main.c,350,49,C,on_ble_evt,void on_ble_evt(ble_evt_t *),sd_ble_gatts_sys_attr_set,"uint32_t sd_ble_gatts_sys_attr_set(uint16_t,uint8_t const *,uint16_t,uint32_t)"
+DEF,../../../../main.c,351,13,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,351,13,X,F,on_ble_evt,void on_ble_evt(ble_evt_t *),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,351,13,C,on_ble_evt,void on_ble_evt(ble_evt_t *),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,355,27,X,V,on_ble_evt,void on_ble_evt(ble_evt_t *),W,m_conn_handle
+DEP,../../../../main.c,356,13,X,F,on_ble_evt,void on_ble_evt(ble_evt_t *),R,nrf_adc_stop,void nrf_adc_stop(void)
+DEP,../../../../main.c,356,25,C,on_ble_evt,void on_ble_evt(ble_evt_t *),nrf_adc_stop,void nrf_adc_stop(void)
+DEP,../../../../main.c,357,13,X,F,on_ble_evt,void on_ble_evt(ble_evt_t *),R,app_timer_stop,uint32_t app_timer_stop(app_timer_id_t)
+DEP,../../../../main.c,357,28,X,V,on_ble_evt,void on_ble_evt(ble_evt_t *),R,m_app_timer_id
+DEP,../../../../main.c,357,27,C,on_ble_evt,void on_ble_evt(ble_evt_t *),app_timer_stop,uint32_t app_timer_stop(app_timer_id_t)
+MET,FN_UNUV,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,0
+MET,FN_PATH,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,10
+DEF,../../../../main.c,374,13,F,I,F,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),9
+DEF,../../../../main.c,374,42,V,I,P,N,p_ble_evt,ble_evt_t *
+DEP,../../../../main.c,376,5,X,F,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),R,dm_ble_evt_handler,void dm_ble_evt_handler(ble_evt_t *)
+DEP,../../../../main.c,376,23,C,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),dm_ble_evt_handler,void dm_ble_evt_handler(ble_evt_t *)
+DEP,../../../../main.c,377,5,X,F,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),R,ble_conn_params_on_ble_evt,void ble_conn_params_on_ble_evt(ble_evt_t *)
+DEP,../../../../main.c,377,31,C,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),ble_conn_params_on_ble_evt,void ble_conn_params_on_ble_evt(ble_evt_t *)
+DEP,../../../../main.c,378,5,X,F,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),R,bsp_btn_ble_on_ble_evt,void bsp_btn_ble_on_ble_evt(ble_evt_t *)
+DEP,../../../../main.c,378,27,C,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),bsp_btn_ble_on_ble_evt,void bsp_btn_ble_on_ble_evt(ble_evt_t *)
+DEP,../../../../main.c,379,5,X,F,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),R,ble_advertising_on_ble_evt,void ble_advertising_on_ble_evt(ble_evt_t const * const)
+DEP,../../../../main.c,379,31,C,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),ble_advertising_on_ble_evt,void ble_advertising_on_ble_evt(ble_evt_t const * const)
+DEP,../../../../main.c,380,5,X,F,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),R,on_ble_evt,void on_ble_evt(ble_evt_t *)
+DEP,../../../../main.c,380,15,C,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),on_ble_evt,void on_ble_evt(ble_evt_t *)
+DEP,../../../../main.c,381,5,X,F,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),R,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *)
+DEP,../../../../main.c,381,25,C,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *)
+MET,FN_UNUV,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,0
+MET,FN_PATH,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,1
+DEF,../../../../main.c,392,13,F,I,F,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),5
+DEF,../../../../main.c,392,39,V,I,P,N,sys_evt,uint32_t
+DEP,../../../../main.c,394,5,X,F,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),R,pstorage_sys_event_handler,void pstorage_sys_event_handler(uint32_t)
+DEP,../../../../main.c,394,31,C,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),pstorage_sys_event_handler,void pstorage_sys_event_handler(uint32_t)
+DEP,../../../../main.c,395,5,X,F,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),R,ble_advertising_on_sys_evt,void ble_advertising_on_sys_evt(uint32_t)
+DEP,../../../../main.c,395,31,C,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),ble_advertising_on_sys_evt,void ble_advertising_on_sys_evt(uint32_t)
+MET,FN_UNUV,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,0
+MET,FN_PATH,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,1
+DEF,../../../../main.c,403,13,F,I,F,ble_stack_init,void ble_stack_init(void),27
+DEF,../../../../main.c,405,14,V,I,B,N,err_code,uint32_t
+DEF,../../../../main.c,408,5,V,I,B,S,BLE_EVT_BUFFER,(uint32_t)[80]
+DEF,../../../../main.c,408,5,V,I,B,N,ERR_CODE,uint32_t
+DEP,../../../../main.c,408,5,X,F,ble_stack_init,void ble_stack_init(void),R,softdevice_handler_init,"uint32_t softdevice_handler_init(nrf_clock_lfclksrc_t,void *,uint16_t,softdevice_evt_schedule_func_t)"
+DEP,../../../../main.c,408,5,C,ble_stack_init,void ble_stack_init(void),softdevice_handler_init,"uint32_t softdevice_handler_init(nrf_clock_lfclksrc_t,void *,uint16_t,softdevice_evt_schedule_func_t)"
+DEF,../../../../main.c,408,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,408,5,X,F,ble_stack_init,void ble_stack_init(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,408,5,C,ble_stack_init,void ble_stack_init(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEF,../../../../main.c,412,25,V,I,B,N,ble_enable_params,ble_enable_params_t
+DEP,../../../../main.c,413,5,X,F,ble_stack_init,void ble_stack_init(void),R,memset,"void * memset(void *,int,size_t)"
+DEP,../../../../main.c,413,11,C,ble_stack_init,void ble_stack_init(void),memset,"void * memset(void *,int,size_t)"
+DEP,../../../../main.c,418,16,X,F,ble_stack_init,void ble_stack_init(void),R,sd_ble_enable,uint32_t sd_ble_enable(ble_enable_params_t *)
+DEP,../../../../main.c,418,29,C,ble_stack_init,void ble_stack_init(void),sd_ble_enable,uint32_t sd_ble_enable(ble_enable_params_t *)
+DEF,../../../../main.c,419,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,419,5,X,F,ble_stack_init,void ble_stack_init(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,419,5,C,ble_stack_init,void ble_stack_init(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,423,47,X,F,ble_stack_init,void ble_stack_init(void),R,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *)
+DEP,../../../../main.c,423,16,X,F,ble_stack_init,void ble_stack_init(void),R,softdevice_ble_evt_handler_set,uint32_t softdevice_ble_evt_handler_set(ble_evt_handler_t)
+DEP,../../../../main.c,423,46,C,ble_stack_init,void ble_stack_init(void),softdevice_ble_evt_handler_set,uint32_t softdevice_ble_evt_handler_set(ble_evt_handler_t)
+DEF,../../../../main.c,424,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,424,5,X,F,ble_stack_init,void ble_stack_init(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,424,5,C,ble_stack_init,void ble_stack_init(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,427,47,X,F,ble_stack_init,void ble_stack_init(void),R,sys_evt_dispatch,void sys_evt_dispatch(uint32_t)
+DEP,../../../../main.c,427,16,X,F,ble_stack_init,void ble_stack_init(void),R,softdevice_sys_evt_handler_set,uint32_t softdevice_sys_evt_handler_set(sys_evt_handler_t)
+DEP,../../../../main.c,427,46,C,ble_stack_init,void ble_stack_init(void),softdevice_sys_evt_handler_set,uint32_t softdevice_sys_evt_handler_set(sys_evt_handler_t)
+DEF,../../../../main.c,428,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,428,5,X,F,ble_stack_init,void ble_stack_init(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,428,5,C,ble_stack_init,void ble_stack_init(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,2
+MET,FN_PATH,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,16
+DEF,../../../../main.c,436,6,F,X,F,bsp_event_handler,void bsp_event_handler(bsp_event_t),29
+DEF,../../../../main.c,436,36,V,I,P,N,event,bsp_event_t
+DEF,../../../../main.c,438,14,V,I,B,N,err_code,uint32_t
+DEP,../../../../main.c,442,13,X,F,bsp_event_handler,void bsp_event_handler(bsp_event_t),R,sleep_mode_enter,void sleep_mode_enter(void)
+DEP,../../../../main.c,442,29,C,bsp_event_handler,void bsp_event_handler(bsp_event_t),sleep_mode_enter,void sleep_mode_enter(void)
+DEP,../../../../main.c,446,24,X,F,bsp_event_handler,void bsp_event_handler(bsp_event_t),R,sd_ble_gap_disconnect,"uint32_t sd_ble_gap_disconnect(uint16_t,uint8_t)"
+DEP,../../../../main.c,446,46,X,V,bsp_event_handler,void bsp_event_handler(bsp_event_t),R,m_conn_handle
+DEP,../../../../main.c,446,45,C,bsp_event_handler,void bsp_event_handler(bsp_event_t),sd_ble_gap_disconnect,"uint32_t sd_ble_gap_disconnect(uint16_t,uint8_t)"
+DEF,../../../../main.c,449,17,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,449,17,X,F,bsp_event_handler,void bsp_event_handler(bsp_event_t),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,449,17,C,bsp_event_handler,void bsp_event_handler(bsp_event_t),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,454,24,X,F,bsp_event_handler,void bsp_event_handler(bsp_event_t),R,ble_advertising_restart_without_whitelist,uint32_t ble_advertising_restart_without_whitelist(void)
+DEP,../../../../main.c,454,65,C,bsp_event_handler,void bsp_event_handler(bsp_event_t),ble_advertising_restart_without_whitelist,uint32_t ble_advertising_restart_without_whitelist(void)
+DEF,../../../../main.c,457,17,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,457,17,X,F,bsp_event_handler,void bsp_event_handler(bsp_event_t),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,457,17,C,bsp_event_handler,void bsp_event_handler(bsp_event_t),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,0
+MET,FN_PATH,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,8
+DEF,../../../../main.c,471,17,F,I,F,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",15
+DEF,../../../../main.c,471,64,V,I,P,N,p_handle,dm_handle_t const *
+DEF,../../../../main.c,472,64,V,I,P,N,p_event,dm_event_t const *
+DEF,../../../../main.c,473,62,V,I,P,N,event_result,ret_code_t
+DEF,../../../../main.c,475,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,475,5,X,F,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,475,5,C,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,2
+MET,FN_PATH,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,2
+DEF,../../../../main.c,493,13,F,I,F,device_manager_init,void device_manager_init(int),27
+DEF,../../../../main.c,493,38,V,I,P,N,erase_bonds,int
+DEF,../../../../main.c,495,28,V,I,B,N,err_code,uint32_t
+DEF,../../../../main.c,496,28,V,I,B,N,init_param,dm_init_param_t
+DEF,../../../../main.c,497,28,V,I,B,N,register_param,dm_application_param_t
+DEP,../../../../main.c,500,16,X,F,device_manager_init,void device_manager_init(int),R,pstorage_init,uint32_t pstorage_init(void)
+DEP,../../../../main.c,500,29,C,device_manager_init,void device_manager_init(int),pstorage_init,uint32_t pstorage_init(void)
+DEF,../../../../main.c,501,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,501,5,X,F,device_manager_init,void device_manager_init(int),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,501,5,C,device_manager_init,void device_manager_init(int),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,503,16,X,F,device_manager_init,void device_manager_init(int),R,dm_init,ret_code_t dm_init(dm_init_param_t const *)
+DEP,../../../../main.c,503,23,C,device_manager_init,void device_manager_init(int),dm_init,ret_code_t dm_init(dm_init_param_t const *)
+DEF,../../../../main.c,504,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,504,5,X,F,device_manager_init,void device_manager_init(int),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,504,5,C,device_manager_init,void device_manager_init(int),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,506,5,X,F,device_manager_init,void device_manager_init(int),R,memset,"void * memset(void *,int,size_t)"
+DEP,../../../../main.c,506,11,C,device_manager_init,void device_manager_init(int),memset,"void * memset(void *,int,size_t)"
+DEP,../../../../main.c,514,45,X,F,device_manager_init,void device_manager_init(int),R,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)"
+DEP,../../../../main.c,517,28,X,V,device_manager_init,void device_manager_init(int),R,m_app_handle
+DEP,../../../../main.c,517,16,X,F,device_manager_init,void device_manager_init(int),R,dm_register,"ret_code_t dm_register(dm_application_instance_t *,dm_application_param_t const *)"
+DEP,../../../../main.c,517,28,X,V,device_manager_init,void device_manager_init(int),W,m_app_handle
+DEP,../../../../main.c,517,27,C,device_manager_init,void device_manager_init(int),dm_register,"ret_code_t dm_register(dm_application_instance_t *,dm_application_param_t const *)"
+DEF,../../../../main.c,518,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,518,5,X,F,device_manager_init,void device_manager_init(int),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,518,5,C,device_manager_init,void device_manager_init(int),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,0
+MET,FN_PATH,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,8
+DEF,../../../../main.c,524,13,F,I,F,advertising_init,void advertising_init(void),22
+DEF,../../../../main.c,526,19,V,I,B,N,err_code,uint32_t
+DEF,../../../../main.c,527,19,V,I,B,N,advdata,ble_advdata_t
+DEP,../../../../main.c,530,5,X,F,advertising_init,void advertising_init(void),R,memset,"void * memset(void *,int,size_t)"
+DEP,../../../../main.c,530,11,C,advertising_init,void advertising_init(void),memset,"void * memset(void *,int,size_t)"
+DEF,../../../../main.c,538,28,V,I,B,N,options,ble_adv_modes_config_t
+DEP,../../../../main.c,543,63,X,F,advertising_init,void advertising_init(void),R,on_adv_evt,void on_adv_evt(ble_adv_evt_t)
+DEP,../../../../main.c,543,16,X,F,advertising_init,void advertising_init(void),R,ble_advertising_init,"uint32_t ble_advertising_init(ble_advdata_t const *,ble_advdata_t const *,ble_adv_modes_config_t const *,ble_advertising_evt_handler_t const,ble_advertising_error_handler_t const)"
+DEP,../../../../main.c,543,36,C,advertising_init,void advertising_init(void),ble_advertising_init,"uint32_t ble_advertising_init(ble_advdata_t const *,ble_advdata_t const *,ble_adv_modes_config_t const *,ble_advertising_evt_handler_t const,ble_advertising_error_handler_t const)"
+DEF,../../../../main.c,544,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,544,5,X,F,advertising_init,void advertising_init(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,544,5,C,advertising_init,void advertising_init(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,advertising_init,void advertising_init(void),../../../../main.c,524,13,0
+MET,FN_PATH,advertising_init,void advertising_init(void),../../../../main.c,524,13,2
+DEF,../../../../main.c,552,13,F,I,F,buttons_leds_init,void buttons_leds_init(int *),14
+DEF,../../../../main.c,552,38,V,I,P,N,p_erase_bonds,int *
+DEF,../../../../main.c,554,17,V,I,B,N,startup_event,bsp_event_t
+DEP,../../../../main.c,558,34,X,F,buttons_leds_init,void buttons_leds_init(int *),R,bsp_event_handler,void bsp_event_handler(bsp_event_t)
+DEP,../../../../main.c,556,25,X,F,buttons_leds_init,void buttons_leds_init(int *),R,bsp_init,"uint32_t bsp_init(uint32_t,uint32_t,bsp_event_callback_t)"
+DEP,../../../../main.c,556,33,C,buttons_leds_init,void buttons_leds_init(int *),bsp_init,"uint32_t bsp_init(uint32_t,uint32_t,bsp_event_callback_t)"
+DEF,../../../../main.c,556,14,V,I,B,N,err_code,uint32_t
+DEF,../../../../main.c,559,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,559,5,X,F,buttons_leds_init,void buttons_leds_init(int *),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,559,5,C,buttons_leds_init,void buttons_leds_init(int *),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,561,16,X,F,buttons_leds_init,void buttons_leds_init(int *),R,bsp_btn_ble_init,"uint32_t bsp_btn_ble_init(bsp_btn_ble_error_handler_t,bsp_event_t *)"
+DEP,../../../../main.c,561,32,C,buttons_leds_init,void buttons_leds_init(int *),bsp_btn_ble_init,"uint32_t bsp_btn_ble_init(bsp_btn_ble_error_handler_t,bsp_event_t *)"
+DEF,../../../../main.c,562,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,562,5,X,F,buttons_leds_init,void buttons_leds_init(int *),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,562,5,C,buttons_leds_init,void buttons_leds_init(int *),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,0
+MET,FN_PATH,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,4
+DEF,../../../../main.c,571,6,F,X,F,ADC_IRQHandler,void ADC_IRQHandler(void),14
+DEP,../../../../main.c,574,5,X,F,ADC_IRQHandler,void ADC_IRQHandler(void),R,nrf_adc_conversion_event_clean,void nrf_adc_conversion_event_clean(void)
+DEP,../../../../main.c,574,35,C,ADC_IRQHandler,void ADC_IRQHandler(void),nrf_adc_conversion_event_clean,void nrf_adc_conversion_event_clean(void)
+DEP,../../../../main.c,576,29,X,F,ADC_IRQHandler,void ADC_IRQHandler(void),R,nrf_adc_result_get,int32_t nrf_adc_result_get(void)
+DEP,../../../../main.c,576,47,C,ADC_IRQHandler,void ADC_IRQHandler(void),nrf_adc_result_get,int32_t nrf_adc_result_get(void)
+DEP,../../../../main.c,576,17,X,V,ADC_IRQHandler,void ADC_IRQHandler(void),W,m_adc_value
+DEP,../../../../main.c,583,5,X,F,ADC_IRQHandler,void ADC_IRQHandler(void),R,bluetooth_adc_send,void bluetooth_adc_send(uint16_t)
+DEP,../../../../main.c,583,24,X,V,ADC_IRQHandler,void ADC_IRQHandler(void),R,m_adc_value
+DEP,../../../../main.c,583,23,C,ADC_IRQHandler,void ADC_IRQHandler(void),bluetooth_adc_send,void bluetooth_adc_send(uint16_t)
+MET,FN_UNUV,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,0
+MET,FN_PATH,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,1
+DEF,../../../../main.c,590,13,F,I,F,adc_config,void adc_config(void),11
+DEF,../../../../main.c,592,28,V,I,B,N,nrf_adc_config,nrf_adc_config_t const
+DEP,../../../../main.c,595,5,X,F,adc_config,void adc_config(void),R,nrf_adc_configure,void nrf_adc_configure(nrf_adc_config_t *)
+DEP,../../../../main.c,595,22,C,adc_config,void adc_config(void),nrf_adc_configure,void nrf_adc_configure(nrf_adc_config_t *)
+DEP,../../../../main.c,596,5,X,F,adc_config,void adc_config(void),R,nrf_adc_input_select,void nrf_adc_input_select(nrf_adc_config_input_t)
+DEP,../../../../main.c,596,25,C,adc_config,void adc_config(void),nrf_adc_input_select,void nrf_adc_input_select(nrf_adc_config_input_t)
+DEP,../../../../main.c,597,5,X,F,adc_config,void adc_config(void),R,nrf_adc_int_enable,void nrf_adc_int_enable(uint32_t)
+DEP,../../../../main.c,597,23,C,adc_config,void adc_config(void),nrf_adc_int_enable,void nrf_adc_int_enable(uint32_t)
+DEP,../../../../main.c,598,5,X,F,adc_config,void adc_config(void),R,NVIC_SetPriority,"void NVIC_SetPriority(IRQn_Type,uint32_t)"
+DEP,../../../../main.c,598,21,C,adc_config,void adc_config(void),NVIC_SetPriority,"void NVIC_SetPriority(IRQn_Type,uint32_t)"
+DEP,../../../../main.c,599,5,X,F,adc_config,void adc_config(void),R,NVIC_EnableIRQ,void NVIC_EnableIRQ(IRQn_Type)
+DEP,../../../../main.c,599,19,C,adc_config,void adc_config(void),NVIC_EnableIRQ,void NVIC_EnableIRQ(IRQn_Type)
+MET,FN_UNUV,adc_config,void adc_config(void),../../../../main.c,590,13,1
+MET,FN_PATH,adc_config,void adc_config(void),../../../../main.c,590,13,1
+DEF,../../../../main.c,605,13,F,I,F,power_manage,void power_manage(void),5
+DEP,../../../../main.c,607,25,X,F,power_manage,void power_manage(void),R,sd_app_evt_wait,uint32_t sd_app_evt_wait(void)
+DEP,../../../../main.c,607,40,C,power_manage,void power_manage(void),sd_app_evt_wait,uint32_t sd_app_evt_wait(void)
+DEF,../../../../main.c,607,14,V,I,B,N,err_code,uint32_t
+DEF,../../../../main.c,608,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,608,5,X,F,power_manage,void power_manage(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,608,5,C,power_manage,void power_manage(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,power_manage,void power_manage(void),../../../../main.c,605,13,0
+MET,FN_PATH,power_manage,void power_manage(void),../../../../main.c,605,13,2
+DEF,../../../../main.c,614,5,F,X,F,main,int main(void),26
+DEF,../../../../main.c,616,14,V,I,B,N,err_code,uint32_t
+DEF,../../../../main.c,617,10,V,I,B,N,erase_bonds,int
+DEP,../../../../main.c,620,5,X,F,main,int main(void),R,timers_init,void timers_init(void)
+DEP,../../../../main.c,620,16,C,main,int main(void),timers_init,void timers_init(void)
+DEP,../../../../main.c,621,5,X,F,main,int main(void),R,buttons_leds_init,void buttons_leds_init(int *)
+DEP,../../../../main.c,621,22,C,main,int main(void),buttons_leds_init,void buttons_leds_init(int *)
+DEP,../../../../main.c,622,5,X,F,main,int main(void),R,adc_config,void adc_config(void)
+DEP,../../../../main.c,622,15,C,main,int main(void),adc_config,void adc_config(void)
+DEP,../../../../main.c,623,5,X,F,main,int main(void),R,ble_stack_init,void ble_stack_init(void)
+DEP,../../../../main.c,623,19,C,main,int main(void),ble_stack_init,void ble_stack_init(void)
+DEP,../../../../main.c,624,5,X,F,main,int main(void),R,device_manager_init,void device_manager_init(int)
+DEP,../../../../main.c,624,24,C,main,int main(void),device_manager_init,void device_manager_init(int)
+DEP,../../../../main.c,625,5,X,F,main,int main(void),R,gap_params_init,void gap_params_init(void)
+DEP,../../../../main.c,625,20,C,main,int main(void),gap_params_init,void gap_params_init(void)
+DEP,../../../../main.c,626,5,X,F,main,int main(void),R,advertising_init,void advertising_init(void)
+DEP,../../../../main.c,626,21,C,main,int main(void),advertising_init,void advertising_init(void)
+DEP,../../../../main.c,627,5,X,F,main,int main(void),R,services_init,void services_init(void)
+DEP,../../../../main.c,627,18,C,main,int main(void),services_init,void services_init(void)
+DEP,../../../../main.c,628,5,X,F,main,int main(void),R,conn_params_init,void conn_params_init(void)
+DEP,../../../../main.c,628,21,C,main,int main(void),conn_params_init,void conn_params_init(void)
+DEP,../../../../main.c,631,16,X,F,main,int main(void),R,ble_advertising_start,uint32_t ble_advertising_start(ble_adv_mode_t)
+DEP,../../../../main.c,631,37,C,main,int main(void),ble_advertising_start,uint32_t ble_advertising_start(ble_adv_mode_t)
+DEF,../../../../main.c,632,5,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../main.c,632,5,X,F,main,int main(void),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,632,5,C,main,int main(void),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../main.c,637,9,X,F,main,int main(void),R,power_manage,void power_manage(void)
+DEP,../../../../main.c,637,21,C,main,int main(void),power_manage,void power_manage(void)
+MET,FN_UNUV,main,int main(void),../../../../main.c,614,5,0
+MET,FN_PATH,main,int main(void),../../../../main.c,614,5,2
+PRE,../../../../main.c,27,1,#include,<stdint.h>
+PRE,../../../../main.c,28,1,#include,<string.h>
+PRE,../../../../main.c,29,1,#include,"""nordic_common.h"""
+PRE,../../../../main.c,30,1,#include,"""nrf.h"""
+PRE,../../../../main.c,31,1,#include,"""app_error.h"""
+PRE,../../../../main.c,32,1,#include,"""nrf51_bitfields.h"""
+PRE,../../../../main.c,33,1,#include,"""nrf_adc.h"""
+PRE,../../../../main.c,34,1,#include,"""ble.h"""
+PRE,../../../../main.c,35,1,#include,"""ble_hci.h"""
+PRE,../../../../main.c,36,1,#include,"""ble_srv_common.h"""
+PRE,../../../../main.c,37,1,#include,"""ble_advdata.h"""
+PRE,../../../../main.c,38,1,#include,"""ble_advertising.h"""
+PRE,../../../../main.c,39,1,#include,"""ble_conn_params.h"""
+PRE,../../../../main.c,40,1,#include,"""boards.h"""
+PRE,../../../../main.c,41,1,#include,"""softdevice_handler.h"""
+PRE,../../../../main.c,42,1,#include,"""app_timer.h"""
+PRE,../../../../main.c,43,1,#include,"""device_manager.h"""
+PRE,../../../../config/device_manager_cnfg.h,26,1,#ifndef,DEVICE_MANAGER_CNFG_H__
+PRE,../../../../config/device_manager_cnfg.h,27,1,#define,DEVICE_MANAGER_CNFG_H__
+PRE,../../../../config/device_manager_cnfg.h,42,1,#define,DEVICE_MANAGER_MAX_APPLICATIONS
+PRE,../../../../config/device_manager_cnfg.h,52,1,#define,DEVICE_MANAGER_MAX_CONNECTIONS
+PRE,../../../../config/device_manager_cnfg.h,67,1,#define,DEVICE_MANAGER_MAX_BONDS
+PRE,../../../../config/device_manager_cnfg.h,78,1,#define,DM_GATT_CCCD_COUNT
+PRE,../../../../config/device_manager_cnfg.h,92,1,#define,DEVICE_MANAGER_APP_CONTEXT_SIZE
+PRE,../../../../config/device_manager_cnfg.h,97,1,#endif,
+PRE,../../../../main.c,44,1,#include,"""pstorage.h"""
+PRE,../../../../config/pstorage_platform.h,19,1,#ifndef,PSTORAGE_PL_H__
+PRE,../../../../config/pstorage_platform.h,20,1,#define,PSTORAGE_PL_H__
+PRE,../../../../config/pstorage_platform.h,22,1,#include,<stdint.h>
+PRE,../../../../config/pstorage_platform.h,23,1,#include,"""nrf.h"""
+PRE,../../../../config/pstorage_platform.h,30,1,#define,PSTORAGE_FLASH_PAGE_SIZE
+PRE,../../../../config/pstorage_platform.h,31,1,#define,PSTORAGE_FLASH_EMPTY_MASK
+PRE,../../../../config/pstorage_platform.h,41,1,#define,PSTORAGE_FLASH_PAGE_END
+PRE,../../../../config/pstorage_platform.h,43,1,#define,PSTORAGE_NUM_OF_PAGES
+PRE,../../../../config/pstorage_platform.h,44,1,#define,PSTORAGE_MIN_BLOCK_SIZE
+PRE,../../../../config/pstorage_platform.h,46,1,#define,PSTORAGE_DATA_START_ADDR
+PRE,../../../../config/pstorage_platform.h,48,1,#define,PSTORAGE_DATA_END_ADDR
+PRE,../../../../config/pstorage_platform.h,49,1,#define,PSTORAGE_SWAP_ADDR
+PRE,../../../../config/pstorage_platform.h,51,1,#define,PSTORAGE_MAX_BLOCK_SIZE
+PRE,../../../../config/pstorage_platform.h,52,1,#define,PSTORAGE_CMD_QUEUE_SIZE
+PRE,../../../../config/pstorage_platform.h,69,1,#endif,
+PRE,../../../../main.c,45,1,#include,"""app_trace.h"""
+PRE,../../../../main.c,46,1,#include,"""bsp.h"""
+PRE,../../../../main.c,47,1,#include,"""bsp_btn_ble.h"""
+PRE,../../../../main.c,48,1,#include,"""ble_adconvert_service.h"""
+PRE,../../../../services/ble_adconvert_service.h,3,1,#ifndef,BLE_ADCONVERT_SERVICE_H__
+PRE,../../../../services/ble_adconvert_service.h,4,1,#define,BLE_ADCONVERT_SERVICE_H__
+PRE,../../../../services/ble_adconvert_service.h,6,1,#include,<stdint.h>
+PRE,../../../../services/ble_adconvert_service.h,7,1,#include,<stdbool.h>
+PRE,../../../../services/ble_adconvert_service.h,8,1,#include,"""ble.h"""
+PRE,../../../../services/ble_adconvert_service.h,9,1,#include,"""ble_srv_common.h"""
+PRE,../../../../services/ble_adconvert_service.h,10,1,#include,"""app_util_bds.h"""
+PRE,../../../../services/ble_adconvert_service.h,106,1,#endif,
+PRE,../../../../main.c,49,1,#include,"""service_if.h"""
+PRE,../../../../services/service_if.h,13,1,#ifndef,BLE_DS_IF_H__
+PRE,../../../../services/service_if.h,14,1,#define,BLE_DS_IF_H__
+PRE,../../../../services/service_if.h,16,1,#include,<stdint.h>
+PRE,../../../../services/service_if.h,17,1,#include,"""ble.h"""
+PRE,../../../../services/service_if.h,36,1,#endif,
+PRE,../../../../main.c,51,1,#define,IS_SRVC_CHANGED_CHARACT_PRESENT
+PRE,../../../../main.c,53,1,#define,DEVICE_NAME
+PRE,../../../../main.c,54,1,#define,MANUFACTURER_NAME
+PRE,../../../../main.c,55,1,#define,APP_ADV_INTERVAL
+PRE,../../../../main.c,56,1,#define,APP_ADV_TIMEOUT_IN_SECONDS
+PRE,../../../../main.c,58,1,#define,APP_TIMER_PRESCALER
+PRE,../../../../main.c,59,1,#define,APP_TIMER_MAX_TIMERS
+PRE,../../../../main.c,60,1,#define,APP_TIMER_OP_QUEUE_SIZE
+PRE,../../../../main.c,62,1,#define,APP_TIMER_ADC_INTERVAL
+PRE,../../../../main.c,65,1,#define,MIN_CONN_INTERVAL
+PRE,../../../../main.c,66,1,#define,MAX_CONN_INTERVAL
+PRE,../../../../main.c,67,1,#define,SLAVE_LATENCY
+PRE,../../../../main.c,68,1,#define,CONN_SUP_TIMEOUT
+PRE,../../../../main.c,70,1,#define,FIRST_CONN_PARAMS_UPDATE_DELAY
+PRE,../../../../main.c,71,1,#define,NEXT_CONN_PARAMS_UPDATE_DELAY
+PRE,../../../../main.c,72,1,#define,MAX_CONN_PARAMS_UPDATE_COUNT
+PRE,../../../../main.c,74,1,#define,SEC_PARAM_BOND
+PRE,../../../../main.c,75,1,#define,SEC_PARAM_MITM
+PRE,../../../../main.c,76,1,#define,SEC_PARAM_IO_CAPABILITIES
+PRE,../../../../main.c,77,1,#define,SEC_PARAM_OOB
+PRE,../../../../main.c,78,1,#define,SEC_PARAM_MIN_KEY_SIZE
+PRE,../../../../main.c,79,1,#define,SEC_PARAM_MAX_KEY_SIZE
+PRE,../../../../main.c,81,1,#define,DEAD_BEEF
+PRE,../../../../main.c,85,1,#define,ADC_THRESHOLD
+PRE,../../../../main.c,86,1,#define,ADC_PERIOD
+PRE,../../../../main.c,190,1,#if,0
+PRE,../../../../main.c,211,1,#endif,
+PRE,../../../../main.c,217,1,#if,1
+PRE,../../../../main.c,219,1,#else,
+PRE,../../../../main.c,230,1,#endif,
+PRE,../../../../main.c,410,1,#if,defined(S110) || defined(S130)
+PRE,../../../../main.c,414,1,#ifdef,S130
+PRE,../../../../main.c,416,1,#endif,
+PRE,../../../../main.c,420,1,#endif,
+PRE,../../../../main.c,477,1,#ifdef,BLE_DFU_APP_SUPPORT
+PRE,../../../../main.c,482,1,#endif,
+MET,FN_LINE,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,4
+MET,FN_PARA,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,0
+LIT,../../../../config/pstorage_platform.h,27,20,HN,0x,UL,0x10000000UL
+MET,FN_STMT,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,1
+MET,FN_UNRC,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,0
+MET,FN_CSUB,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,0
+MET,FN_GOTO,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,0
+MET,FN_RETN,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,1
+MET,FN_UELS,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,0
+MET,FN_NEST,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,0
+MET,FN_CYCM,pstorage_flash_page_size,uint16_t pstorage_flash_page_size(),../../../../config/pstorage_platform.h,25,26,1
+MET,FN_LINE,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,7
+MET,FN_PARA,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,0
+LIT,../../../../config/pstorage_platform.h,35,31,HN,0x,UL,0x10001000UL
+INI,../../../../config/pstorage_platform.h,35,13,bootloader_addr,((struct __adlint__anon_53 { uint32_t volatile CLENR0; uint32_t volatile RBPCONF; uint32_t volatile XTALFREQ; uint32_t const volatile RESERVED0; uint32_t const volatile FWID; union __adlint__anon_52; (uint32_t volatile)[12] NRFHW; (uint32_t volatile)[32] CUSTOMER; } *) 0x10001000UL)->BOOTLOADERADDR
+LIT,../../../../config/pstorage_platform.h,37,32,HN,0x,FFFFFFFF,0xFFFFFFFF
+LIT,../../../../config/pstorage_platform.h,38,58,HN,0x,UL,0x10000000UL
+MET,FN_STMT,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,1
+MET,FN_UNRC,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,0
+MET,FN_CSUB,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,1
+MET,FN_GOTO,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,0
+MET,FN_RETN,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,1
+MET,FN_UELS,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,0
+MET,FN_NEST,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,0
+MET,FN_CYCM,pstorage_flash_page_end,uint32_t pstorage_flash_page_end(),../../../../config/pstorage_platform.h,33,26,1
+DCL,../../../../config/pstorage_platform.h,56,18,T,T,pstorage_block_t,unsigned long int
+DCL,../../../../config/pstorage_platform.h,58,9,T,S,__adlint__anon_219,struct __adlint__anon_219 { uint32_t module_id; pstorage_block_t block_id; }
+DCL,../../../../config/pstorage_platform.h,62,3,T,T,pstorage_handle_t,struct __adlint__anon_219 { uint32_t module_id; pstorage_block_t block_id; }
+DCL,../../../../config/pstorage_platform.h,64,18,T,T,pstorage_size_t,unsigned short int
+DCL,../../../../services/ble_adconvert_service.h,15,9,T,E,__adlint__anon_229,"enum __adlint__anon_229 { BLE_ADCONVERT_SERVICE_ADVALUE_EVT_NOTIFICATION_ENABLED, BLE_ADCONVERT_SERVICE_ADVALUE_EVT_NOTIFICATION_DISABLED, BLE_ADCONVERT_SERVICE_ADVALUE_EVT_CCCD_WRITE }"
+DCL,../../../../services/ble_adconvert_service.h,20,3,T,T,ble_adconvert_service_evt_type_t,"enum __adlint__anon_229 { BLE_ADCONVERT_SERVICE_ADVALUE_EVT_NOTIFICATION_ENABLED, BLE_ADCONVERT_SERVICE_ADVALUE_EVT_NOTIFICATION_DISABLED, BLE_ADCONVERT_SERVICE_ADVALUE_EVT_CCCD_WRITE }"
+DCL,../../../../services/ble_adconvert_service.h,23,40,T,T,ble_adconvert_service_t,struct ble_adconvert_service_s { ble_adconvert_service_evt_handler_t evt_handler; uint16_t service_handle; ble_gatts_char_handles_t advalue_handles; uint16_t conn_handle; }
+DCL,../../../../services/ble_adconvert_service.h,33,9,T,S,__adlint__anon_230,struct __adlint__anon_230 { uint16_t advalue; }
+DCL,../../../../services/ble_adconvert_service.h,36,3,T,T,ble_adconvert_service_advalue_t,struct __adlint__anon_230 { uint16_t advalue; }
+DCL,../../../../services/ble_adconvert_service.h,42,5,T,U,__adlint__anon_231,union __adlint__anon_231 { uint16_t cccd_value; }
+DCL,../../../../services/ble_adconvert_service.h,39,9,T,S,__adlint__anon_232,struct __adlint__anon_232 { ble_adconvert_service_evt_type_t evt_type; union __adlint__anon_231 params; }
+DCL,../../../../services/ble_adconvert_service.h,45,3,T,T,ble_adconvert_service_evt_t,struct __adlint__anon_232 { ble_adconvert_service_evt_type_t evt_type; union __adlint__anon_231 params; }
+DCL,../../../../services/ble_adconvert_service.h,48,16,T,T,ble_adconvert_service_evt_handler_t,"void(*)(struct ble_adconvert_service_s { ble_adconvert_service_evt_handler_t evt_handler; uint16_t service_handle; ble_gatts_char_handles_t advalue_handles; uint16_t conn_handle; } *,struct __adlint__anon_232 { ble_adconvert_service_evt_type_t evt_type; union __adlint__anon_231 params; } *)"
+DCL,../../../../services/ble_adconvert_service.h,51,9,T,S,__adlint__anon_233,struct __adlint__anon_233 { ble_adconvert_service_evt_handler_t evt_handler; ble_adconvert_service_advalue_t ble_adconvert_service_advalue_initial_value; }
+DCL,../../../../services/ble_adconvert_service.h,55,3,T,T,ble_adconvert_service_init_t,struct __adlint__anon_233 { ble_adconvert_service_evt_handler_t evt_handler; ble_adconvert_service_advalue_t ble_adconvert_service_advalue_initial_value; }
+DCL,../../../../services/ble_adconvert_service.h,58,8,T,S,ble_adconvert_service_s,struct ble_adconvert_service_s { ble_adconvert_service_evt_handler_t evt_handler; uint16_t service_handle; ble_gatts_char_handles_t advalue_handles; uint16_t conn_handle; }
+LIT,../../../../main.c,90,61,HN,0x,FFFF,0xFFFF
+INI,../../../../main.c,90,45,m_conn_handle,0xFFFF
+LIT,../../../../main.c,97,37,HN,0x,,0x180A
+LIT,../../../../main.c,97,74,HN,0x,,0x01
+INI,../../../../main.c,97,19,m_adv_uuids,"{{0x180A,0x01}}"
+MET,FN_LINE,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,6
+MET,FN_PARA,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,3
+MET,FN_STMT,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,4
+MET,FN_UNRC,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,0
+MET,FN_CSUB,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,1
+MET,FN_GOTO,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,0
+MET,FN_RETN,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,1
+MET,FN_UELS,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,0
+MET,FN_NEST,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,1
+MET,FN_CYCM,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)",../../../../main.c,106,6,1
+MET,FN_LINE,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,4
+MET,FN_PARA,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,2
+LIT,../../../../main.c,127,23,HN,0x,F,0xDEADBEEF
+MET,FN_STMT,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,1
+MET,FN_UNRC,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,0
+MET,FN_CSUB,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,1
+MET,FN_GOTO,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,0
+MET,FN_RETN,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,1
+MET,FN_UELS,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,0
+MET,FN_NEST,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,0
+MET,FN_CYCM,assert_nrf_callback,"void assert_nrf_callback(uint16_t,uint8_t const *)",../../../../main.c,125,6,1
+MET,FN_LINE,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,6
+MET,FN_PARA,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,1
+LIT,../../../../main.c,134,25,DN,,,26
+MET,FN_STMT,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,3
+MET,FN_UNRC,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,0
+MET,FN_CSUB,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,2
+MET,FN_GOTO,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,0
+MET,FN_RETN,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,1
+MET,FN_UELS,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,0
+MET,FN_NEST,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,0
+MET,FN_CYCM,timer_timeout_handler,void timer_timeout_handler(void *),../../../../main.c,131,13,1
+MET,FN_LINE,timers_init,void timers_init(void),../../../../main.c,143,13,11
+MET,FN_PARA,timers_init,void timers_init(void),../../../../main.c,143,13,0
+LIT,../../../../main.c,148,5,DN,,,6
+LIT,../../../../main.c,148,5,DN,,,2
+LIT,../../../../main.c,148,5,DN,,,0
+LIT,../../../../main.c,148,5,DN,,,1
+LIT,../../../../main.c,148,5,DN,,,40
+LIT,../../../../main.c,148,5,DN,,,3
+LIT,../../../../main.c,148,5,DN,,,8
+LIT,../../../../main.c,148,5,DN,,,4
+LIT,../../../../main.c,148,5,DN,,,1
+LIT,../../../../main.c,148,5,DN,,,1
+LIT,../../../../main.c,148,5,DN,,,24
+LIT,../../../../main.c,148,5,DN,,,1
+LIT,../../../../main.c,148,5,DN,,,1
+LIT,../../../../main.c,148,5,DN,,,0
+LIT,../../../../main.c,148,5,DN,,,6
+LIT,../../../../main.c,148,5,DN,,,2
+LIT,../../../../main.c,148,5,DN,,,0
+LIT,../../../../main.c,148,5,DN,,,1
+LIT,../../../../main.c,148,5,DN,,,4
+LIT,../../../../main.c,148,5,DN,,,1
+LIT,../../../../main.c,148,5,DN,,,0
+INI,../../../../main.c,148,5,ERR_CODE,"app_timer_init((0),((6 + (2 + 0) + 1)),(4) + 1,APP_TIMER_BUF,0)"
+INI,../../../../main.c,148,5,LOCAL_ERR_CODE,(ERR_CODE)
+LIT,../../../../main.c,148,5,HN,0x,,0x0
+LIT,../../../../main.c,148,5,DN,,,0
+LIT,../../../../main.c,148,5,DN,,,0
+LIT,../../../../main.c,148,5,DN,,,0
+LIT,../../../../main.c,148,5,DN,,,0
+LIT,../../../../main.c,148,5,DN,,,0
+LIT,../../../../main.c,148,5,DN,,,0
+ASN,../../../../main.c,151,14,err_code,"= app_timer_create(&m_app_timer_id,APP_TIMER_MODE_REPEATED,timer_timeout_handler)"
+INI,../../../../main.c,152,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,152,5,HN,0x,,0x0
+LIT,../../../../main.c,152,5,DN,,,0
+LIT,../../../../main.c,152,5,DN,,,0
+LIT,../../../../main.c,152,5,DN,,,0
+LIT,../../../../main.c,152,5,DN,,,0
+LIT,../../../../main.c,152,5,DN,,,0
+MET,FN_STMT,timers_init,void timers_init(void),../../../../main.c,143,13,10
+MET,FN_UNRC,timers_init,void timers_init(void),../../../../main.c,143,13,0
+MET,FN_CSUB,timers_init,void timers_init(void),../../../../main.c,143,13,4
+MET,FN_GOTO,timers_init,void timers_init(void),../../../../main.c,143,13,0
+MET,FN_RETN,timers_init,void timers_init(void),../../../../main.c,143,13,1
+MET,FN_UELS,timers_init,void timers_init(void),../../../../main.c,143,13,0
+MET,FN_NEST,timers_init,void timers_init(void),../../../../main.c,143,13,4
+MET,FN_CYCM,timers_init,void timers_init(void),../../../../main.c,143,13,3
+MET,FN_LINE,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,27
+MET,FN_PARA,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,0
+ASN,../../../../main.c,167,5,(&sec_mode)->sm,= 1
+LIT,../../../../main.c,167,5,DN,,,1
+ASN,../../../../main.c,167,5,(&sec_mode)->lv,= 1
+LIT,../../../../main.c,167,5,DN,,,1
+LIT,../../../../main.c,167,5,DN,,,0
+ASN,../../../../main.c,169,14,err_code,"= sd_ble_gap_device_name_set(&sec_mode,(unsigned char const *) ""FootPressure"",strlen(""FootPressure""))"
+LIT,../../../../main.c,170,60,SN,,,"""FootPressure"""
+LIT,../../../../main.c,171,50,SN,,,"""FootPressure"""
+INI,../../../../main.c,172,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,172,5,HN,0x,,0x0
+LIT,../../../../main.c,172,5,DN,,,0
+LIT,../../../../main.c,172,5,DN,,,0
+LIT,../../../../main.c,172,5,DN,,,0
+LIT,../../../../main.c,172,5,DN,,,0
+LIT,../../../../main.c,172,5,DN,,,0
+LIT,../../../../main.c,178,30,DN,,,0
+ASN,../../../../main.c,180,39,gap_conn_params.min_conn_interval,= (((100) * 1000) / (UNIT_1_25_MS))
+LIT,../../../../main.c,180,41,DN,,,100
+LIT,../../../../main.c,180,41,DN,,,1000
+ASN,../../../../main.c,181,39,gap_conn_params.max_conn_interval,= (((200) * 1000) / (UNIT_1_25_MS))
+LIT,../../../../main.c,181,41,DN,,,200
+LIT,../../../../main.c,181,41,DN,,,1000
+ASN,../../../../main.c,182,39,gap_conn_params.slave_latency,= 0
+LIT,../../../../main.c,182,41,DN,,,0
+ASN,../../../../main.c,183,39,gap_conn_params.conn_sup_timeout,= (((4000) * 1000) / (UNIT_10_MS))
+LIT,../../../../main.c,183,41,DN,,,4000
+LIT,../../../../main.c,183,41,DN,,,1000
+ASN,../../../../main.c,185,14,err_code,= sd_ble_gap_ppcp_set(&gap_conn_params)
+INI,../../../../main.c,186,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,186,5,HN,0x,,0x0
+LIT,../../../../main.c,186,5,DN,,,0
+LIT,../../../../main.c,186,5,DN,,,0
+LIT,../../../../main.c,186,5,DN,,,0
+LIT,../../../../main.c,186,5,DN,,,0
+LIT,../../../../main.c,186,5,DN,,,0
+MET,FN_STMT,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,18
+MET,FN_UNRC,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,0
+MET,FN_CSUB,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,6
+MET,FN_GOTO,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,0
+MET,FN_RETN,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,1
+MET,FN_UELS,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,0
+MET,FN_NEST,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,3
+MET,FN_CYCM,gap_params_init,void gap_params_init(void),../../../../main.c,161,13,3
+MET,FN_LINE,services_init,void services_init(void),../../../../main.c,215,13,17
+MET,FN_PARA,services_init,void services_init(void),../../../../main.c,215,13,0
+MET,FN_STMT,services_init,void services_init(void),../../../../main.c,215,13,1
+MET,FN_UNRC,services_init,void services_init(void),../../../../main.c,215,13,0
+MET,FN_CSUB,services_init,void services_init(void),../../../../main.c,215,13,1
+MET,FN_GOTO,services_init,void services_init(void),../../../../main.c,215,13,0
+MET,FN_RETN,services_init,void services_init(void),../../../../main.c,215,13,1
+MET,FN_UELS,services_init,void services_init(void),../../../../main.c,215,13,0
+MET,FN_NEST,services_init,void services_init(void),../../../../main.c,215,13,0
+MET,FN_CYCM,services_init,void services_init(void),../../../../main.c,215,13,1
+MET,FN_LINE,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,10
+MET,FN_PARA,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,1
+ASN,../../../../main.c,250,18,err_code,"= sd_ble_gap_disconnect(m_conn_handle,0x3B)"
+LIT,../../../../main.c,250,57,HN,0x,,0x3B
+INI,../../../../main.c,251,9,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,251,9,HN,0x,,0x0
+LIT,../../../../main.c,251,9,DN,,,0
+LIT,../../../../main.c,251,9,DN,,,0
+LIT,../../../../main.c,251,9,DN,,,0
+LIT,../../../../main.c,251,9,DN,,,0
+LIT,../../../../main.c,251,9,DN,,,0
+MET,FN_STMT,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,6
+MET,FN_UNRC,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,0
+MET,FN_CSUB,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,2
+MET,FN_GOTO,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,0
+MET,FN_RETN,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,1
+MET,FN_UELS,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,0
+MET,FN_NEST,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,4
+MET,FN_CYCM,on_conn_params_evt,void on_conn_params_evt(ble_conn_params_evt_t *),../../../../main.c,244,13,3
+MET,FN_LINE,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,4
+MET,FN_PARA,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,1
+LIT,../../../../main.c,262,5,DN,,,0
+LIT,../../../../main.c,262,5,DN,,,0
+LIT,../../../../main.c,262,5,DN,,,0
+MET,FN_STMT,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,2
+MET,FN_UNRC,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,0
+MET,FN_CSUB,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,1
+MET,FN_GOTO,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,0
+MET,FN_RETN,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,1
+MET,FN_UELS,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,0
+MET,FN_NEST,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,1
+MET,FN_CYCM,conn_params_error_handler,void conn_params_error_handler(uint32_t),../../../../main.c,260,13,1
+MET,FN_LINE,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,19
+MET,FN_PARA,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,0
+LIT,../../../../main.c,273,22,DN,,,0
+ASN,../../../../main.c,275,44,cp_init.p_conn_params,= NULL
+ASN,../../../../main.c,276,44,cp_init.first_conn_params_update_delay,= ((unsigned long int) ((((5000) * (unsigned long long int) 32768) + ((((0) + 1) * 1000) / 2)) / (((0) + 1) * 1000)))
+LIT,../../../../main.c,276,46,DN,,,5000
+LIT,../../../../main.c,276,46,DN,,,32768
+LIT,../../../../main.c,276,46,DN,,,0
+LIT,../../../../main.c,276,46,DN,,,1
+LIT,../../../../main.c,276,46,DN,,,1000
+LIT,../../../../main.c,276,46,DN,,,2
+LIT,../../../../main.c,276,46,DN,,,0
+LIT,../../../../main.c,276,46,DN,,,1
+LIT,../../../../main.c,276,46,DN,,,1000
+ASN,../../../../main.c,277,44,cp_init.next_conn_params_update_delay,= ((unsigned long int) ((((30000) * (unsigned long long int) 32768) + ((((0) + 1) * 1000) / 2)) / (((0) + 1) * 1000)))
+LIT,../../../../main.c,277,46,DN,,,30000
+LIT,../../../../main.c,277,46,DN,,,32768
+LIT,../../../../main.c,277,46,DN,,,0
+LIT,../../../../main.c,277,46,DN,,,1
+LIT,../../../../main.c,277,46,DN,,,1000
+LIT,../../../../main.c,277,46,DN,,,2
+LIT,../../../../main.c,277,46,DN,,,0
+LIT,../../../../main.c,277,46,DN,,,1
+LIT,../../../../main.c,277,46,DN,,,1000
+ASN,../../../../main.c,278,44,cp_init.max_conn_params_update_count,= 3
+LIT,../../../../main.c,278,46,DN,,,3
+ASN,../../../../main.c,279,44,cp_init.start_on_notify_cccd_handle,= 0x0000
+LIT,../../../../main.c,279,46,HN,0x,,0x0000
+ASN,../../../../main.c,280,44,cp_init.disconnect_on_fail,= 0
+LIT,../../../../main.c,280,46,DN,,,0
+ASN,../../../../main.c,281,44,cp_init.evt_handler,= on_conn_params_evt
+ASN,../../../../main.c,282,44,cp_init.error_handler,= conn_params_error_handler
+ASN,../../../../main.c,284,14,err_code,= ble_conn_params_init(&cp_init)
+INI,../../../../main.c,285,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,285,5,HN,0x,,0x0
+LIT,../../../../main.c,285,5,DN,,,0
+LIT,../../../../main.c,285,5,DN,,,0
+LIT,../../../../main.c,285,5,DN,,,0
+LIT,../../../../main.c,285,5,DN,,,0
+LIT,../../../../main.c,285,5,DN,,,0
+MET,FN_STMT,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,14
+MET,FN_UNRC,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,0
+MET,FN_CSUB,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,3
+MET,FN_GOTO,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,0
+MET,FN_RETN,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,1
+MET,FN_UELS,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,0
+MET,FN_NEST,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,3
+MET,FN_CYCM,conn_params_init,void conn_params_init(void),../../../../main.c,268,13,2
+MET,FN_LINE,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,13
+MET,FN_PARA,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,0
+INI,../../../../main.c,295,14,err_code,bsp_indication_set(BSP_INDICATE_IDLE)
+INI,../../../../main.c,296,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,296,5,HN,0x,,0x0
+LIT,../../../../main.c,296,5,DN,,,0
+LIT,../../../../main.c,296,5,DN,,,0
+LIT,../../../../main.c,296,5,DN,,,0
+LIT,../../../../main.c,296,5,DN,,,0
+LIT,../../../../main.c,296,5,DN,,,0
+ASN,../../../../main.c,299,14,err_code,= bsp_btn_ble_sleep_mode_prepare()
+INI,../../../../main.c,300,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,300,5,HN,0x,,0x0
+LIT,../../../../main.c,300,5,DN,,,0
+LIT,../../../../main.c,300,5,DN,,,0
+LIT,../../../../main.c,300,5,DN,,,0
+LIT,../../../../main.c,300,5,DN,,,0
+LIT,../../../../main.c,300,5,DN,,,0
+ASN,../../../../main.c,303,14,err_code,= sd_power_system_off()
+INI,../../../../main.c,304,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,304,5,HN,0x,,0x0
+LIT,../../../../main.c,304,5,DN,,,0
+LIT,../../../../main.c,304,5,DN,,,0
+LIT,../../../../main.c,304,5,DN,,,0
+LIT,../../../../main.c,304,5,DN,,,0
+LIT,../../../../main.c,304,5,DN,,,0
+MET,FN_STMT,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,14
+MET,FN_UNRC,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,0
+MET,FN_CSUB,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,6
+MET,FN_GOTO,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,0
+MET,FN_RETN,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,1
+MET,FN_UELS,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,0
+MET,FN_NEST,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,3
+MET,FN_CYCM,sleep_mode_enter,void sleep_mode_enter(void),../../../../main.c,293,13,4
+MET,FN_LINE,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,17
+MET,FN_PARA,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,1
+ASN,../../../../main.c,321,22,err_code,= bsp_indication_set(BSP_INDICATE_ADVERTISING)
+INI,../../../../main.c,322,13,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,322,13,HN,0x,,0x0
+LIT,../../../../main.c,322,13,DN,,,0
+LIT,../../../../main.c,322,13,DN,,,0
+LIT,../../../../main.c,322,13,DN,,,0
+LIT,../../../../main.c,322,13,DN,,,0
+LIT,../../../../main.c,322,13,DN,,,0
+MET,FN_STMT,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,13
+MET,FN_UNRC,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,0
+MET,FN_CSUB,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,3
+MET,FN_GOTO,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,0
+MET,FN_RETN,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,1
+MET,FN_UELS,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,0
+MET,FN_NEST,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,4
+MET,FN_CYCM,on_adv_evt,void on_adv_evt(ble_adv_evt_t),../../../../main.c,314,13,4
+MET,FN_LINE,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,28
+MET,FN_PARA,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,1
+ASN,../../../../main.c,344,22,err_code,= bsp_indication_set(BSP_INDICATE_CONNECTED)
+INI,../../../../main.c,345,13,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,345,13,HN,0x,,0x0
+LIT,../../../../main.c,345,13,DN,,,0
+LIT,../../../../main.c,345,13,DN,,,0
+LIT,../../../../main.c,345,13,DN,,,0
+LIT,../../../../main.c,345,13,DN,,,0
+LIT,../../../../main.c,345,13,DN,,,0
+ASN,../../../../main.c,346,27,m_conn_handle,= p_ble_evt->evt.gap_evt.conn_handle
+ASN,../../../../main.c,348,22,err_code,"= app_timer_start(m_app_timer_id,((unsigned long int) (((((5000)) * (unsigned long long int) 32768) + ((((0) + 1) * 1000) / 2)) / (((0) + 1) * 1000))),NULL)"
+LIT,../../../../main.c,348,56,DN,,,5000
+LIT,../../../../main.c,348,56,DN,,,32768
+LIT,../../../../main.c,348,56,DN,,,0
+LIT,../../../../main.c,348,56,DN,,,1
+LIT,../../../../main.c,348,56,DN,,,1000
+LIT,../../../../main.c,348,56,DN,,,2
+LIT,../../../../main.c,348,56,DN,,,0
+LIT,../../../../main.c,348,56,DN,,,1
+LIT,../../../../main.c,348,56,DN,,,1000
+INI,../../../../main.c,349,13,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,349,13,HN,0x,,0x0
+LIT,../../../../main.c,349,13,DN,,,0
+LIT,../../../../main.c,349,13,DN,,,0
+LIT,../../../../main.c,349,13,DN,,,0
+LIT,../../../../main.c,349,13,DN,,,0
+LIT,../../../../main.c,349,13,DN,,,0
+ASN,../../../../main.c,350,22,err_code,"= sd_ble_gatts_sys_attr_set(m_conn_handle,NULL,0,0)"
+LIT,../../../../main.c,350,71,DN,,,0
+LIT,../../../../main.c,350,74,DN,,,0
+INI,../../../../main.c,351,13,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,351,13,HN,0x,,0x0
+LIT,../../../../main.c,351,13,DN,,,0
+LIT,../../../../main.c,351,13,DN,,,0
+LIT,../../../../main.c,351,13,DN,,,0
+LIT,../../../../main.c,351,13,DN,,,0
+LIT,../../../../main.c,351,13,DN,,,0
+ASN,../../../../main.c,355,27,m_conn_handle,= 0xFFFF
+LIT,../../../../main.c,355,29,HN,0x,FFFF,0xFFFF
+MET,FN_STMT,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,26
+MET,FN_UNRC,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,0
+MET,FN_CSUB,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,8
+MET,FN_GOTO,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,0
+MET,FN_RETN,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,1
+MET,FN_UELS,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,0
+MET,FN_NEST,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,4
+MET,FN_CYCM,on_ble_evt,void on_ble_evt(ble_evt_t *),../../../../main.c,337,13,6
+MET,FN_LINE,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,9
+MET,FN_PARA,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,1
+MET,FN_STMT,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,6
+MET,FN_UNRC,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,0
+MET,FN_CSUB,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,6
+MET,FN_GOTO,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,0
+MET,FN_RETN,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,1
+MET,FN_UELS,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,0
+MET,FN_NEST,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,0
+MET,FN_CYCM,ble_evt_dispatch,void ble_evt_dispatch(ble_evt_t *),../../../../main.c,374,13,1
+MET,FN_LINE,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,5
+MET,FN_PARA,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,1
+MET,FN_STMT,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,2
+MET,FN_UNRC,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,0
+MET,FN_CSUB,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,2
+MET,FN_GOTO,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,0
+MET,FN_RETN,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,1
+MET,FN_UELS,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,0
+MET,FN_NEST,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,0
+MET,FN_CYCM,sys_evt_dispatch,void sys_evt_dispatch(uint32_t),../../../../main.c,392,13,1
+MET,FN_LINE,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,27
+MET,FN_PARA,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,0
+LIT,../../../../main.c,408,5,DN,,,23
+LIT,../../../../main.c,408,5,DN,,,1
+LIT,../../../../main.c,408,5,DN,,,1
+ASN,../../../../main.c,408,5,ERR_CODE,"= softdevice_handler_init((NRF_CLOCK_LFCLKSRC_RC_250_PPM_4000MS_CALIBRATION),BLE_EVT_BUFFER,sizeof((BLE_EVT_BUFFER)),NULL)"
+INI,../../../../main.c,408,5,LOCAL_ERR_CODE,(ERR_CODE)
+LIT,../../../../main.c,408,5,HN,0x,,0x0
+LIT,../../../../main.c,408,5,DN,,,0
+LIT,../../../../main.c,408,5,DN,,,0
+LIT,../../../../main.c,408,5,DN,,,0
+LIT,../../../../main.c,408,5,DN,,,0
+LIT,../../../../main.c,408,5,DN,,,0
+LIT,../../../../main.c,408,5,DN,,,0
+LIT,../../../../main.c,413,32,DN,,,0
+ASN,../../../../main.c,417,59,ble_enable_params.gatts_enable_params.service_changed,= 1
+LIT,../../../../main.c,417,61,DN,,,1
+ASN,../../../../main.c,418,14,err_code,= sd_ble_enable(&ble_enable_params)
+INI,../../../../main.c,419,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,419,5,HN,0x,,0x0
+LIT,../../../../main.c,419,5,DN,,,0
+LIT,../../../../main.c,419,5,DN,,,0
+LIT,../../../../main.c,419,5,DN,,,0
+LIT,../../../../main.c,419,5,DN,,,0
+LIT,../../../../main.c,419,5,DN,,,0
+ASN,../../../../main.c,423,14,err_code,= softdevice_ble_evt_handler_set(ble_evt_dispatch)
+INI,../../../../main.c,424,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,424,5,HN,0x,,0x0
+LIT,../../../../main.c,424,5,DN,,,0
+LIT,../../../../main.c,424,5,DN,,,0
+LIT,../../../../main.c,424,5,DN,,,0
+LIT,../../../../main.c,424,5,DN,,,0
+LIT,../../../../main.c,424,5,DN,,,0
+ASN,../../../../main.c,427,14,err_code,= softdevice_sys_evt_handler_set(sys_evt_dispatch)
+INI,../../../../main.c,428,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,428,5,HN,0x,,0x0
+LIT,../../../../main.c,428,5,DN,,,0
+LIT,../../../../main.c,428,5,DN,,,0
+LIT,../../../../main.c,428,5,DN,,,0
+LIT,../../../../main.c,428,5,DN,,,0
+LIT,../../../../main.c,428,5,DN,,,0
+MET,FN_STMT,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,23
+MET,FN_UNRC,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,0
+MET,FN_CSUB,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,9
+MET,FN_GOTO,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,0
+MET,FN_RETN,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,1
+MET,FN_UELS,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,0
+MET,FN_NEST,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,4
+MET,FN_CYCM,ble_stack_init,void ble_stack_init(void),../../../../main.c,403,13,5
+MET,FN_LINE,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,29
+MET,FN_PARA,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,1
+ASN,../../../../main.c,446,22,err_code,"= sd_ble_gap_disconnect(m_conn_handle,0x13)"
+LIT,../../../../main.c,446,61,HN,0x,,0x13
+LIT,../../../../main.c,447,29,HN,0x,,0x0
+LIT,../../../../main.c,447,29,DN,,,8
+INI,../../../../main.c,449,17,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,449,17,HN,0x,,0x0
+LIT,../../../../main.c,449,17,DN,,,0
+LIT,../../../../main.c,449,17,DN,,,0
+LIT,../../../../main.c,449,17,DN,,,0
+LIT,../../../../main.c,449,17,DN,,,0
+LIT,../../../../main.c,449,17,DN,,,0
+ASN,../../../../main.c,454,22,err_code,= ble_advertising_restart_without_whitelist()
+LIT,../../../../main.c,455,29,HN,0x,,0x0
+LIT,../../../../main.c,455,29,DN,,,8
+INI,../../../../main.c,457,17,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,457,17,HN,0x,,0x0
+LIT,../../../../main.c,457,17,DN,,,0
+LIT,../../../../main.c,457,17,DN,,,0
+LIT,../../../../main.c,457,17,DN,,,0
+LIT,../../../../main.c,457,17,DN,,,0
+LIT,../../../../main.c,457,17,DN,,,0
+MET,FN_STMT,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,22
+MET,FN_UNRC,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,0
+MET,FN_CSUB,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,5
+MET,FN_GOTO,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,0
+MET,FN_RETN,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,1
+MET,FN_UELS,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,0
+MET,FN_NEST,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,5
+MET,FN_CYCM,bsp_event_handler,void bsp_event_handler(bsp_event_t),../../../../main.c,436,6,8
+MET,FN_LINE,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,15
+MET,FN_PARA,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,3
+INI,../../../../main.c,475,5,LOCAL_ERR_CODE,(event_result)
+LIT,../../../../main.c,475,5,HN,0x,,0x0
+LIT,../../../../main.c,475,5,DN,,,0
+LIT,../../../../main.c,475,5,DN,,,0
+LIT,../../../../main.c,475,5,DN,,,0
+LIT,../../../../main.c,475,5,DN,,,0
+LIT,../../../../main.c,475,5,DN,,,0
+LIT,../../../../main.c,484,12,HN,0x,,0x0
+LIT,../../../../main.c,484,12,DN,,,0
+MET,FN_STMT,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,5
+MET,FN_UNRC,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,0
+MET,FN_CSUB,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,1
+MET,FN_GOTO,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,0
+MET,FN_RETN,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,1
+MET,FN_UELS,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,0
+MET,FN_NEST,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,3
+MET,FN_CYCM,device_manager_evt_handler,"uint32_t device_manager_evt_handler(dm_handle_t const *,dm_event_t const *,ret_code_t)",../../../../main.c,471,17,2
+MET,FN_LINE,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,27
+MET,FN_PARA,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,1
+INI,../../../../main.c,496,28,init_param,{erase_bonds}
+ASN,../../../../main.c,500,14,err_code,= pstorage_init()
+INI,../../../../main.c,501,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,501,5,HN,0x,,0x0
+LIT,../../../../main.c,501,5,DN,,,0
+LIT,../../../../main.c,501,5,DN,,,0
+LIT,../../../../main.c,501,5,DN,,,0
+LIT,../../../../main.c,501,5,DN,,,0
+LIT,../../../../main.c,501,5,DN,,,0
+ASN,../../../../main.c,503,14,err_code,= dm_init(&init_param)
+INI,../../../../main.c,504,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,504,5,HN,0x,,0x0
+LIT,../../../../main.c,504,5,DN,,,0
+LIT,../../../../main.c,504,5,DN,,,0
+LIT,../../../../main.c,504,5,DN,,,0
+LIT,../../../../main.c,504,5,DN,,,0
+LIT,../../../../main.c,504,5,DN,,,0
+LIT,../../../../main.c,506,39,DN,,,0
+ASN,../../../../main.c,508,43,register_param.sec_param.bond,= 1
+LIT,../../../../main.c,508,45,DN,,,1
+ASN,../../../../main.c,509,43,register_param.sec_param.mitm,= 0
+LIT,../../../../main.c,509,45,DN,,,0
+ASN,../../../../main.c,510,43,register_param.sec_param.io_caps,= 0x03
+LIT,../../../../main.c,510,45,HN,0x,,0x03
+ASN,../../../../main.c,511,43,register_param.sec_param.oob,= 0
+LIT,../../../../main.c,511,45,DN,,,0
+ASN,../../../../main.c,512,43,register_param.sec_param.min_key_size,= 7
+LIT,../../../../main.c,512,45,DN,,,7
+ASN,../../../../main.c,513,43,register_param.sec_param.max_key_size,= 16
+LIT,../../../../main.c,513,45,DN,,,16
+ASN,../../../../main.c,514,43,register_param.evt_handler,= device_manager_evt_handler
+ASN,../../../../main.c,515,43,register_param.service_type,= 0x01
+LIT,../../../../main.c,515,45,HN,0x,,0x01
+ASN,../../../../main.c,517,14,err_code,"= dm_register(&m_app_handle,&register_param)"
+INI,../../../../main.c,518,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,518,5,HN,0x,,0x0
+LIT,../../../../main.c,518,5,DN,,,0
+LIT,../../../../main.c,518,5,DN,,,0
+LIT,../../../../main.c,518,5,DN,,,0
+LIT,../../../../main.c,518,5,DN,,,0
+LIT,../../../../main.c,518,5,DN,,,0
+MET,FN_STMT,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,24
+MET,FN_UNRC,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,0
+MET,FN_CSUB,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,7
+MET,FN_GOTO,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,0
+MET,FN_RETN,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,1
+MET,FN_UELS,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,0
+MET,FN_NEST,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,3
+MET,FN_CYCM,device_manager_init,void device_manager_init(int),../../../../main.c,493,13,4
+MET,FN_LINE,advertising_init,void advertising_init(void),../../../../main.c,524,13,22
+MET,FN_PARA,advertising_init,void advertising_init(void),../../../../main.c,524,13,0
+LIT,../../../../main.c,530,22,DN,,,0
+ASN,../../../../main.c,532,37,advdata.name_type,= BLE_ADVDATA_FULL_NAME
+ASN,../../../../main.c,533,37,advdata.include_appearance,= 1
+LIT,../../../../main.c,533,39,DN,,,1
+ASN,../../../../main.c,534,37,advdata.flags,= ((0x02) | (0x04))
+LIT,../../../../main.c,534,39,HN,0x,,0x02
+LIT,../../../../main.c,534,39,HN,0x,,0x04
+ASN,../../../../main.c,535,37,advdata.uuids_complete.uuid_cnt,= sizeof((m_adv_uuids)) / sizeof((m_adv_uuids[0]))
+LIT,../../../../main.c,535,80,DN,,,0
+ASN,../../../../main.c,536,37,advdata.uuids_complete.p_uuids,= m_adv_uuids
+LIT,../../../../main.c,538,39,DN,,,0
+INI,../../../../main.c,538,28,options,{0}
+ASN,../../../../main.c,539,35,options.ble_adv_fast_enabled,= 1
+LIT,../../../../main.c,539,37,DN,,,1
+ASN,../../../../main.c,540,35,options.ble_adv_fast_interval,= 300
+LIT,../../../../main.c,540,37,DN,,,300
+ASN,../../../../main.c,541,35,options.ble_adv_fast_timeout,= 180
+LIT,../../../../main.c,541,37,DN,,,180
+ASN,../../../../main.c,543,14,err_code,"= ble_advertising_init(&advdata,NULL,&options,on_adv_evt,NULL)"
+INI,../../../../main.c,544,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,544,5,HN,0x,,0x0
+LIT,../../../../main.c,544,5,DN,,,0
+LIT,../../../../main.c,544,5,DN,,,0
+LIT,../../../../main.c,544,5,DN,,,0
+LIT,../../../../main.c,544,5,DN,,,0
+LIT,../../../../main.c,544,5,DN,,,0
+MET,FN_STMT,advertising_init,void advertising_init(void),../../../../main.c,524,13,14
+MET,FN_UNRC,advertising_init,void advertising_init(void),../../../../main.c,524,13,0
+MET,FN_CSUB,advertising_init,void advertising_init(void),../../../../main.c,524,13,3
+MET,FN_GOTO,advertising_init,void advertising_init(void),../../../../main.c,524,13,0
+MET,FN_RETN,advertising_init,void advertising_init(void),../../../../main.c,524,13,1
+MET,FN_UELS,advertising_init,void advertising_init(void),../../../../main.c,524,13,0
+MET,FN_NEST,advertising_init,void advertising_init(void),../../../../main.c,524,13,3
+MET,FN_CYCM,advertising_init,void advertising_init(void),../../../../main.c,524,13,2
+MET,FN_LINE,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,14
+MET,FN_PARA,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,1
+LIT,../../../../main.c,556,34,DN,,,1
+LIT,../../../../main.c,556,34,DN,,,0
+LIT,../../../../main.c,556,49,DN,,,1
+LIT,../../../../main.c,556,49,DN,,,1
+LIT,../../../../main.c,557,34,DN,,,100
+LIT,../../../../main.c,557,34,DN,,,32768
+LIT,../../../../main.c,557,34,DN,,,0
+LIT,../../../../main.c,557,34,DN,,,1
+LIT,../../../../main.c,557,34,DN,,,1000
+LIT,../../../../main.c,557,34,DN,,,2
+LIT,../../../../main.c,557,34,DN,,,0
+LIT,../../../../main.c,557,34,DN,,,1
+LIT,../../../../main.c,557,34,DN,,,1000
+INI,../../../../main.c,556,14,err_code,"bsp_init((1 << 0) | (1 << 1),((unsigned long int) ((((100) * (unsigned long long int) 32768) + ((((0) + 1) * 1000) / 2)) / (((0) + 1) * 1000))),bsp_event_handler)"
+INI,../../../../main.c,559,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,559,5,HN,0x,,0x0
+LIT,../../../../main.c,559,5,DN,,,0
+LIT,../../../../main.c,559,5,DN,,,0
+LIT,../../../../main.c,559,5,DN,,,0
+LIT,../../../../main.c,559,5,DN,,,0
+LIT,../../../../main.c,559,5,DN,,,0
+ASN,../../../../main.c,561,14,err_code,"= bsp_btn_ble_init(NULL,&startup_event)"
+INI,../../../../main.c,562,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,562,5,HN,0x,,0x0
+LIT,../../../../main.c,562,5,DN,,,0
+LIT,../../../../main.c,562,5,DN,,,0
+LIT,../../../../main.c,562,5,DN,,,0
+LIT,../../../../main.c,562,5,DN,,,0
+LIT,../../../../main.c,562,5,DN,,,0
+ASN,../../../../main.c,564,20,*p_erase_bonds,= (startup_event == BSP_EVENT_CLEAR_BONDING_DATA)
+MET,FN_STMT,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,10
+MET,FN_UNRC,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,0
+MET,FN_CSUB,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,4
+MET,FN_GOTO,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,0
+MET,FN_RETN,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,1
+MET,FN_UELS,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,0
+MET,FN_NEST,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,3
+MET,FN_CYCM,buttons_leds_init,void buttons_leds_init(int *),../../../../main.c,552,13,3
+MET,FN_LINE,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,14
+MET,FN_PARA,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,0
+ASN,../../../../main.c,576,17,m_adc_value,= (unsigned short int) nrf_adc_result_get()
+MET,FN_STMT,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,3
+MET,FN_UNRC,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,0
+MET,FN_CSUB,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,3
+MET,FN_GOTO,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,0
+MET,FN_RETN,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,1
+MET,FN_UELS,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,0
+MET,FN_NEST,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,0
+MET,FN_CYCM,ADC_IRQHandler,void ADC_IRQHandler(void),../../../../main.c,571,6,1
+MET,FN_LINE,adc_config,void adc_config(void),../../../../main.c,590,13,11
+MET,FN_PARA,adc_config,void adc_config(void),../../../../main.c,590,13,0
+INI,../../../../main.c,592,28,nrf_adc_config,"{NRF_ADC_CONFIG_RES_10BIT,NRF_ADC_CONFIG_SCALING_INPUT_ONE_THIRD,NRF_ADC_CONFIG_REF_VBG}"
+LIT,../../../../main.c,597,24,DN,,UL,1UL
+LIT,../../../../main.c,597,52,DN,,UL,0UL
+MET,FN_STMT,adc_config,void adc_config(void),../../../../main.c,590,13,5
+MET,FN_UNRC,adc_config,void adc_config(void),../../../../main.c,590,13,0
+MET,FN_CSUB,adc_config,void adc_config(void),../../../../main.c,590,13,5
+MET,FN_GOTO,adc_config,void adc_config(void),../../../../main.c,590,13,0
+MET,FN_RETN,adc_config,void adc_config(void),../../../../main.c,590,13,1
+MET,FN_UELS,adc_config,void adc_config(void),../../../../main.c,590,13,0
+MET,FN_NEST,adc_config,void adc_config(void),../../../../main.c,590,13,0
+MET,FN_CYCM,adc_config,void adc_config(void),../../../../main.c,590,13,1
+MET,FN_LINE,power_manage,void power_manage(void),../../../../main.c,605,13,5
+MET,FN_PARA,power_manage,void power_manage(void),../../../../main.c,605,13,0
+INI,../../../../main.c,607,14,err_code,sd_app_evt_wait()
+INI,../../../../main.c,608,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,608,5,HN,0x,,0x0
+LIT,../../../../main.c,608,5,DN,,,0
+LIT,../../../../main.c,608,5,DN,,,0
+LIT,../../../../main.c,608,5,DN,,,0
+LIT,../../../../main.c,608,5,DN,,,0
+LIT,../../../../main.c,608,5,DN,,,0
+MET,FN_STMT,power_manage,void power_manage(void),../../../../main.c,605,13,4
+MET,FN_UNRC,power_manage,void power_manage(void),../../../../main.c,605,13,0
+MET,FN_CSUB,power_manage,void power_manage(void),../../../../main.c,605,13,2
+MET,FN_GOTO,power_manage,void power_manage(void),../../../../main.c,605,13,0
+MET,FN_RETN,power_manage,void power_manage(void),../../../../main.c,605,13,1
+MET,FN_UELS,power_manage,void power_manage(void),../../../../main.c,605,13,0
+MET,FN_NEST,power_manage,void power_manage(void),../../../../main.c,605,13,3
+MET,FN_CYCM,power_manage,void power_manage(void),../../../../main.c,605,13,2
+MET,FN_LINE,main,int main(void),../../../../main.c,614,5,26
+MET,FN_PARA,main,int main(void),../../../../main.c,614,5,0
+ASN,../../../../main.c,631,14,err_code,= ble_advertising_start(BLE_ADV_MODE_FAST)
+INI,../../../../main.c,632,5,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../main.c,632,5,HN,0x,,0x0
+LIT,../../../../main.c,632,5,DN,,,0
+LIT,../../../../main.c,632,5,DN,,,0
+LIT,../../../../main.c,632,5,DN,,,0
+LIT,../../../../main.c,632,5,DN,,,0
+LIT,../../../../main.c,632,5,DN,,,0
+MET,FN_STMT,main,int main(void),../../../../main.c,614,5,18
+MET,FN_UNRC,main,int main(void),../../../../main.c,614,5,0
+MET,FN_CSUB,main,int main(void),../../../../main.c,614,5,12
+MET,FN_GOTO,main,int main(void),../../../../main.c,614,5,0
+MET,FN_RETN,main,int main(void),../../../../main.c,614,5,0
+MET,FN_UELS,main,int main(void),../../../../main.c,614,5,0
+MET,FN_NEST,main,int main(void),../../../../main.c,614,5,3
+MET,FN_CYCM,main,int main(void),../../../../main.c,614,5,2
+MET,FL_STMT,../../../../main.c,248
+MET,FL_FUNC,../../../../main.c,24

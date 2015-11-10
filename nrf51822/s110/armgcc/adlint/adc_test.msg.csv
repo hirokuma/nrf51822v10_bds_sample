@@ -1,0 +1,7 @@
+V,3.2.14,2015-10-23 23:12:56 +0900,/cygdrive/e/Prog/BLE/nRF51_SDK_9.0.0_2e23562/projects/adc_test/nrf51822/s110/armgcc/adlint
+W,../../../../config/pstorage_platform.h,33,26,c_builtin,W0628,UNC,X99,関数 `uint32_t pstorage_flash_page_end()' が定義されていますが、このプロジェクトでは使われていません。
+W,../../../../main.c,125,6,c_builtin,W0628,UNC,X99,"関数 `void assert_nrf_callback(uint16_t,uint8_t const *)' が定義されていますが、このプロジェクトでは使われていません。"
+W,../../../../main.c,436,6,c_builtin,W0589,UNC,X99,オブジェクト `void bsp_event_handler(bsp_event_t)' は、定義されている翻訳単位の内の、関数 `void buttons_leds_init(int *)' のみから参照されています。
+W,../../../../main.c,436,6,c_builtin,W0591,UNC,X99,関数 `void bsp_event_handler(bsp_event_t)' は、定義されている翻訳単位の内でのみ参照されています。
+W,../../../../main.c,571,6,c_builtin,W0628,UNC,X99,関数 `void ADC_IRQHandler(void)' が定義されていますが、このプロジェクトでは使われていません。
+W,../../../../services/ble_adconvert_service.c,172,10,c_builtin,W0628,UNC,X99,"関数 `uint32_t ble_adconvert_service_advalue_set(ble_adconvert_service_t *,ble_adconvert_service_advalue_t *)' が定義されていますが、このプロジェクトでは使われていません。"

@@ -1,0 +1,627 @@
+V,3.2.14,2015-10-23 23:12:02 +0900,/cygdrive/e/Prog/BLE/nRF51_SDK_9.0.0_2e23562/projects/adc_test/nrf51822/s110/armgcc/adlint
+W,../../../../main.c,13,1,c_builtin,W0576,UNC,X99,基本ソース文字集合に含まれない文字が、ソースファイル `../../../../main.c' のコメントの中で使われています。
+E,/usr/include/sys/cdefs.h,275,21,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+E,/usr/include/sys/cdefs.h,291,21,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+E,/usr/include/sys/cdefs.h,307,23,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+E,/usr/include/sys/cdefs.h,320,21,core,E0007,ERR,X99,条件式中のトークン `(' で構文エラーを検出しました。条件式を偽として評価します。
+W,../../../../config/device_manager_cnfg.h,97,8,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../config/pstorage_platform.h,22,1,c_builtin,W0025,UNC,X99,`/cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h' は、既にこのファイルから直接インクルードされています。
+W,../../../../config/pstorage_platform.h,23,1,c_builtin,W0025,UNC,X99,`../../../../../../components/device/nrf.h' は、既にこのファイルから直接インクルードされています。
+W,../../../../config/pstorage_platform.h,69,8,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.h,6,1,c_builtin,W0025,UNC,X99,`/cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h' は、既にこのファイルから直接インクルードされています。
+W,../../../../services/ble_adconvert_service.h,6,1,c_builtin,W0026,UNC,X99,`/cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h' は、既にこのファイルから間接的にインクルードされています。
+W,../../../../services/ble_adconvert_service.h,8,1,c_builtin,W0025,UNC,X99,`../../../../../../components/softdevice/s110/headers/ble.h' は、既にこのファイルから直接インクルードされています。
+W,../../../../services/ble_adconvert_service.h,9,1,c_builtin,W0025,UNC,X99,`../../../../../../components/ble/common/ble_srv_common.h' は、既にこのファイルから直接インクルードされています。
+W,../../../../services/ble_adconvert_service.h,22,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/ble_adconvert_service.h,106,8,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../services/service_if.h,16,1,c_builtin,W0025,UNC,X99,`/cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h' は、既にこのファイルから直接インクルードされています。
+W,../../../../services/service_if.h,16,1,c_builtin,W0026,UNC,X99,`/cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h' は、既にこのファイルから間接的にインクルードされています。
+W,../../../../services/service_if.h,17,1,c_builtin,W0025,UNC,X99,`../../../../../../components/softdevice/s110/headers/ble.h' は、既にこのファイルから直接インクルードされています。
+W,../../../../services/service_if.h,17,1,c_builtin,W0026,UNC,X99,`../../../../../../components/softdevice/s110/headers/ble.h' は、既にこのファイルから間接的にインクルードされています。
+W,../../../../services/service_if.h,36,8,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,83,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,85,85,c_builtin,W0576,UNC,X99,基本ソース文字集合に含まれない文字が、ソースファイル `../../../../main.c' のコメントの中で使われています。
+W,../../../../main.c,86,85,c_builtin,W0576,UNC,X99,基本ソース文字集合に含まれない文字が、ソースファイル `../../../../main.c' のコメントの中で使われています。
+W,../../../../main.c,93,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,96,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,147,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,150,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,207,13,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,224,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,298,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,302,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,361,13,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,407,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,411,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,422,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,426,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,482,8,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,499,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,529,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,577,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,578,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,579,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,580,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,581,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,582,1,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,594,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,619,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,630,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+W,../../../../main.c,634,5,c_builtin,W0511,UNC,X99,C++ コメント `//' が使われています。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,935,120,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,945,89,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,972,146,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,993,103,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1001,65,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1026,143,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1042,110,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1054,84,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1064,92,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1074,95,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1085,103,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1095,97,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1109,159,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1126,111,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1151,131,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1177,201,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1197,133,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1217,157,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1236,203,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1248,121,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1263,128,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1277,83,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1294,97,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1308,107,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1316,67,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1333,180,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gap.h,1341,77,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_l2cap.h,137,85,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_l2cap.h,149,89,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_l2cap.h,169,132,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,286,173,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,304,161,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,324,165,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,341,157,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,359,189,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,378,111,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,395,151,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,419,127,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gattc.h,432,106,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,382,129,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,403,148,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,428,226,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,447,149,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,466,132,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,489,132,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,526,119,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,549,143,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,566,179,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,603,155,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble_gatts.h,631,152,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,254,90,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,281,83,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,318,91,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,347,111,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,368,124,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,383,127,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,396,83,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,411,122,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,427,90,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/ble.h,446,84,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,374,68,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,383,76,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,391,76,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,404,71,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,416,73,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,429,105,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,441,79,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,453,83,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,468,108,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,481,112,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,488,65,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,500,118,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,511,112,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,519,118,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,527,124,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,537,115,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,545,98,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,553,102,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,562,84,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,568,65,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,579,79,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,588,114,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,596,73,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,604,73,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,612,77,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,620,86,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,628,86,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,636,85,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,647,98,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,659,71,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,670,71,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,681,96,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,706,57,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,714,100,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,722,104,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,730,104,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,741,157,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,750,88,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,759,90,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,769,100,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,779,98,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,808,159,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,819,94,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,830,62,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,843,61,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,875,118,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,904,81,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,919,95,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,941,117,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,954,72,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_soc.h,987,88,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_sdm.h,180,146,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_sdm.h,195,69,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_sdm.h,203,101,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+E,../../../../../../components/softdevice/s110/headers/nrf_sdm.h,213,109,core,E0018,ERR,X99,大域スコープに余分なセミコロンが見つかりました。
+W,../../../../config/pstorage_platform.h,25,26,c_builtin,W1076,UNC,X99,関数 `pstorage_flash_page_size' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../config/pstorage_platform.h,27,20,c_builtin,W0567,UNC,X99,汎整数型をオブジェクトを指すポインタ(あるいはその逆)へキャストしています。
+W,../../../../config/pstorage_platform.h,33,26,c_builtin,W1076,UNC,X99,関数 `pstorage_flash_page_end' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../config/pstorage_platform.h,35,31,c_builtin,W0567,UNC,X99,汎整数型をオブジェクトを指すポインタ(あるいはその逆)へキャストしています。
+W,../../../../config/pstorage_platform.h,37,32,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../config/pstorage_platform.h,38,30,c_builtin,W9003,UNC,X99,暗黙的に `uint16_t' 型のオブジェクトが `unsigned long int' 型のオブジェクトに変換されています。
+W,../../../../config/pstorage_platform.h,38,28,c_builtin,W0093,UNC,X99,ゼロになることがある値で除算しています。
+W,../../../../config/pstorage_platform.h,38,58,c_builtin,W0567,UNC,X99,汎整数型をオブジェクトを指すポインタ(あるいはその逆)へキャストしています。
+W,../../../../config/pstorage_platform.h,35,13,c_builtin,W0100,UNC,X99,変数 `bootloader_addr' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,90,61,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,90,61,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,90,61,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,97,37,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,97,37,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,97,37,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,97,74,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,97,74,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../main.c,97,74,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,106,33,c_builtin,W0031,UNC,X99,仮引数 `error_code' は、この関数の中で使われていません。
+W,../../../../main.c,106,54,c_builtin,W0031,UNC,X99,仮引数 `line_num' は、この関数の中で使われていません。
+W,../../../../main.c,106,80,c_builtin,W0031,UNC,X99,仮引数 `p_file_name' は、この関数の中で使われていません。
+W,../../../../main.c,106,33,c_builtin,W0104,UNC,X99,仮引数 `error_code' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,106,54,c_builtin,W0104,UNC,X99,仮引数 `line_num' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,106,80,c_builtin,W0104,UNC,X99,仮引数 `p_file_name' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,125,6,c_builtin,W0117,UNC,X99,`assert_nrf_callback' の定義は外部結合を持ちますが、定義より前にその宣言がありません。
+W,../../../../main.c,127,23,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,127,23,c_builtin,W9003,UNC,X99,暗黙的に `unsigned int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,127,34,c_builtin,W9003,UNC,X99,暗黙的に `uint16_t' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,125,35,c_builtin,W0104,UNC,X99,仮引数 `line_num' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,125,61,c_builtin,W0104,UNC,X99,仮引数 `p_file_name' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,131,13,c_builtin,W1076,UNC,X99,関数 `timer_timeout_handler' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,134,25,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,134,25,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,131,42,c_builtin,W0104,UNC,X99,仮引数 `p_context' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,131,42,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_context' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../main.c,143,13,c_builtin,W1076,UNC,X99,関数 `timers_init' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,148,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,148,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,148,5,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../main.c,148,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,148,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,148,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,148,5,c_builtin,W0100,UNC,X99,変数 `ERR_CODE' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,152,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,152,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,152,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,152,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,145,14,c_builtin,W0100,UNC,X99,変数 `err_code' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,161,13,c_builtin,W1076,UNC,X99,関数 `gap_params_init' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,167,5,c_builtin,W0459,UNC,X99,変数 `sec_mode' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,165,29,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../main.c,167,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `unsigned char:4' 型のオブジェクトに変換されています。
+W,../../../../main.c,171,49,c_builtin,W0752,UNC,X99,暗黙的に unsigned int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,171,49,c_builtin,W9003,UNC,X99,暗黙的に `size_t' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,172,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,172,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,172,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,172,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,178,12,c_builtin,W0459,UNC,X99,変数 `gap_conn_params' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,164,29,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../main.c,180,41,c_builtin,W9003,UNC,X99,暗黙的に `enum __adlint__anon_168' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../main.c,180,41,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,180,41,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,181,41,c_builtin,W9003,UNC,X99,暗黙的に `enum __adlint__anon_168' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../main.c,181,41,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,181,41,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,182,41,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,182,41,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,183,41,c_builtin,W9003,UNC,X99,暗黙的に `enum __adlint__anon_168' 型のオブジェクトが `int' 型のオブジェクトに変換されています。
+W,../../../../main.c,183,41,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,183,41,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,186,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,186,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,186,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,186,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,178,11,c_builtin,W1073,UNC,X99,関数 `memset' の戻り値を破棄しています。
+W,../../../../main.c,215,13,c_builtin,W1076,UNC,X99,関数 `services_init' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,218,19,c_builtin,W1073,UNC,X99,関数 `bluetooth_init' の戻り値を破棄しています。
+W,../../../../main.c,244,13,c_builtin,W1076,UNC,X99,関数 `on_conn_params_evt' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,248,14,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,244,56,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../main.c,250,57,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,250,57,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../main.c,250,57,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,251,9,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,251,9,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,251,9,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,251,9,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,246,14,c_builtin,W0100,UNC,X99,変数 `err_code' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,244,56,c_builtin,W0104,UNC,X99,仮引数 `p_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,244,56,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_evt' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../main.c,260,13,c_builtin,W1076,UNC,X99,関数 `conn_params_error_handler' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,262,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,262,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,260,48,c_builtin,W0104,UNC,X99,仮引数 `nrf_error' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,268,13,c_builtin,W1076,UNC,X99,関数 `conn_params_init' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,273,12,c_builtin,W0459,UNC,X99,変数 `cp_init' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,271,28,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../main.c,276,46,c_builtin,W0175,UNC,X99,暗黙的に signed int 型から unsigned long long 型に型変換されています。
+W,../../../../main.c,276,46,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long long int' に型変換されています。
+W,../../../../main.c,277,46,c_builtin,W0175,UNC,X99,暗黙的に signed int 型から unsigned long long 型に型変換されています。
+W,../../../../main.c,277,46,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long long int' に型変換されています。
+W,../../../../main.c,278,46,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../main.c,278,46,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,279,46,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,279,46,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,279,46,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,285,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,285,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,285,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,285,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,270,28,c_builtin,W0100,UNC,X99,変数 `err_code' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,273,11,c_builtin,W1073,UNC,X99,関数 `memset' の戻り値を破棄しています。
+W,../../../../main.c,293,13,c_builtin,W1076,UNC,X99,関数 `sleep_mode_enter' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,296,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,296,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,296,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,296,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,300,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,300,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,300,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,300,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,304,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,304,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,304,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,304,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,314,13,c_builtin,W1076,UNC,X99,関数 `on_adv_evt' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,322,13,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,322,13,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,322,13,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,322,13,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,316,14,c_builtin,W0100,UNC,X99,変数 `err_code' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,314,38,c_builtin,W0104,UNC,X99,仮引数 `ble_adv_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,337,13,c_builtin,W1076,UNC,X99,関数 `on_ble_evt' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,341,22,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,337,36,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../main.c,345,13,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,345,13,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,345,13,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,345,13,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,346,38,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,337,36,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../main.c,348,56,c_builtin,W0175,UNC,X99,暗黙的に signed int 型から unsigned long long 型に型変換されています。
+W,../../../../main.c,348,56,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long long int' に型変換されています。
+W,../../../../main.c,349,13,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,349,13,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,349,13,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,349,13,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,350,71,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,350,71,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,350,74,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,350,74,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,351,13,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,351,13,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,351,13,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,351,13,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,355,29,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,355,29,c_builtin,W0166,UNC,X99,暗黙的に signed int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,355,29,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,337,36,c_builtin,W0104,UNC,X99,仮引数 `p_ble_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,337,36,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_ble_evt' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../main.c,357,27,c_builtin,W1073,UNC,X99,関数 `app_timer_stop' の戻り値を破棄しています。
+W,../../../../main.c,374,13,c_builtin,W1076,UNC,X99,関数 `ble_evt_dispatch' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,374,42,c_builtin,W0104,UNC,X99,仮引数 `p_ble_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,374,42,c_builtin,W0105,UNC,X99,ポインタ仮引数 `p_ble_evt' が指しているオブジェクトは関数内で変わらないので、const オブジェクトを指すポインタ型として宣言できる可能性があります。
+W,../../../../main.c,392,13,c_builtin,W1076,UNC,X99,関数 `sys_evt_dispatch' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,392,39,c_builtin,W0104,UNC,X99,仮引数 `sys_evt' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,403,13,c_builtin,W1076,UNC,X99,関数 `ble_stack_init' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,408,5,c_builtin,W9003,UNC,X99,暗黙的に `enum NRF_CLOCK_LFCLKSRCS' 型のオブジェクトが `nrf_clock_lfclksrc_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,408,5,c_builtin,W0752,UNC,X99,暗黙的に unsigned int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,408,5,c_builtin,W9003,UNC,X99,暗黙的に `size_t' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,408,5,c_builtin,W1059,UNC,X99,仮引数が列挙型でない関数の実引数に列挙型が渡されています。
+W,../../../../main.c,408,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,408,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,408,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,408,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,413,12,c_builtin,W0459,UNC,X99,変数 `ble_enable_params' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,412,25,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../main.c,417,61,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `unsigned char:1' 型のオブジェクトに変換されています。
+W,../../../../main.c,419,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,419,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,419,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,419,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,424,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,424,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,424,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,424,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,428,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,428,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,428,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,428,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,413,11,c_builtin,W1073,UNC,X99,関数 `memset' の戻り値を破棄しています。
+W,../../../../main.c,436,6,c_builtin,W0117,UNC,X99,`bsp_event_handler' の定義は外部結合を持ちますが、定義より前にその宣言がありません。
+W,../../../../main.c,446,61,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,446,61,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../main.c,446,61,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,447,29,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,447,29,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,447,29,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,449,17,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,449,17,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,449,17,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,449,17,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,455,29,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,455,29,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,455,29,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,457,17,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,457,17,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,457,17,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,457,17,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,436,36,c_builtin,W0104,UNC,X99,仮引数 `event' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,471,17,c_builtin,W1076,UNC,X99,関数 `device_manager_evt_handler' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,475,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,475,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,475,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,475,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,484,12,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,484,12,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,484,12,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `uint32_t' に型変換されています。
+W,../../../../main.c,484,12,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,484,5,c_builtin,W0304,UNC,X99,signed int 型の値が関数 `unsigned long device_manager_evt_handler()' から返されています。
+W,../../../../main.c,471,64,c_builtin,W0031,UNC,X99,仮引数 `p_handle' は、この関数の中で使われていません。
+W,../../../../main.c,472,64,c_builtin,W0031,UNC,X99,仮引数 `p_event' は、この関数の中で使われていません。
+W,../../../../main.c,471,64,c_builtin,W0104,UNC,X99,仮引数 `p_handle' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,472,64,c_builtin,W0104,UNC,X99,仮引数 `p_event' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,473,62,c_builtin,W0104,UNC,X99,仮引数 `event_result' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,493,13,c_builtin,W1076,UNC,X99,関数 `device_manager_init' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,496,28,c_builtin,W1047,UNC,X99,構造体、共用体、あるいは配列の初期化子がリテラルではありません。
+W,../../../../main.c,501,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,501,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,501,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,501,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,504,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,504,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,504,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,504,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,506,12,c_builtin,W0459,UNC,X99,変数 `register_param' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,497,28,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../main.c,508,45,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `unsigned char:1' 型のオブジェクトに変換されています。
+W,../../../../main.c,509,45,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `unsigned char:1' 型のオブジェクトに変換されています。
+W,../../../../main.c,510,45,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,510,45,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `unsigned char:3' 型のオブジェクトに変換されています。
+W,../../../../main.c,511,45,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `unsigned char:1' 型のオブジェクトに変換されています。
+W,../../../../main.c,512,45,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../main.c,512,45,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,513,45,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../main.c,513,45,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,515,45,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,515,45,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../main.c,515,45,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,518,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,518,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,518,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,518,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,496,28,c_builtin,W0100,UNC,X99,変数 `init_param' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,493,38,c_builtin,W0104,UNC,X99,仮引数 `erase_bonds' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,506,11,c_builtin,W1073,UNC,X99,関数 `memset' の戻り値を破棄しています。
+W,../../../../main.c,524,13,c_builtin,W1076,UNC,X99,関数 `advertising_init' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,530,12,c_builtin,W0459,UNC,X99,変数 `advdata' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,527,19,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../main.c,534,39,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,534,39,c_builtin,W0572,UNC,X99,符号付きのデータに対するビット演算は処理系定義の結果になります。
+W,../../../../main.c,534,39,c_builtin,W0165,UNC,X99,暗黙的に signed int 型から unsigned char 型に型変換されています。
+W,../../../../main.c,534,39,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint8_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,535,59,c_builtin,W0752,UNC,X99,暗黙的に unsigned int 型から unsigned short 型に型変換されています。
+W,../../../../main.c,535,59,c_builtin,W9003,UNC,X99,暗黙的に `size_t' 型のオブジェクトが `uint16_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,540,37,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,540,37,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,541,37,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,541,37,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,543,63,c_builtin,W9003,UNC,X99,暗黙的に `void(*)(ble_adv_evt_t)' 型のオブジェクトが `ble_advertising_evt_handler_t const' 型のオブジェクトに変換されています。
+W,../../../../main.c,544,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,544,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,544,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,544,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,526,19,c_builtin,W0100,UNC,X99,変数 `err_code' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,530,11,c_builtin,W1073,UNC,X99,関数 `memset' の戻り値を破棄しています。
+W,../../../../main.c,552,13,c_builtin,W1076,UNC,X99,関数 `buttons_leds_init' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,556,34,c_builtin,W0572,UNC,X99,符号付きのデータに対するビット演算は処理系定義の結果になります。
+W,../../../../main.c,556,49,c_builtin,W0572,UNC,X99,符号付きのデータに対するビット演算は処理系定義の結果になります。
+W,../../../../main.c,556,47,c_builtin,W0572,UNC,X99,符号付きのデータに対するビット演算は処理系定義の結果になります。
+W,../../../../main.c,557,34,c_builtin,W0175,UNC,X99,暗黙的に signed int 型から unsigned long long 型に型変換されています。
+W,../../../../main.c,557,34,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long long int' に型変換されています。
+W,../../../../main.c,556,47,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,556,47,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,559,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,559,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,559,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,559,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,561,39,c_builtin,W0459,UNC,X99,変数 `startup_event' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,554,17,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../main.c,562,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,562,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,562,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,562,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,564,5,c_builtin,W0422,UNC,X99,値が NULL になることがあるポインタに対して間接参照が行われています。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,552,38,c_builtin,C1005,INF,X99,ここで該当変数に NULL の可能性がある値を割り当てました。
+W,../../../../main.c,554,17,c_builtin,W0100,UNC,X99,変数 `startup_event' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,552,38,c_builtin,W0104,UNC,X99,仮引数 `p_erase_bonds' は値が変わりません。const 付きで宣言できる可能性があります。
+W,../../../../main.c,571,6,c_builtin,W0117,UNC,X99,`ADC_IRQHandler' の定義は外部結合を持ちますが、定義より前にその宣言がありません。
+W,../../../../main.c,576,19,c_builtin,W0608,UNC,X99,値が負になることがありうる整数式が符号無し型に変換されています。
+W,../../../../main.c,590,13,c_builtin,W1076,UNC,X99,関数 `adc_config' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,595,24,c_builtin,W0019,UNC,X99,このポインタキャストは、const 修飾を削除しているので危険です。
+W,../../../../main.c,598,32,c_builtin,W9003,UNC,X99,暗黙的に `enum NRF_APP_PRIORITIES' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,598,32,c_builtin,W1059,UNC,X99,仮引数が列挙型でない関数の実引数に列挙型が渡されています。
+W,../../../../main.c,605,13,c_builtin,W1076,UNC,X99,関数 `power_manage' は内部結合を持ちますが、事前に内部結合として宣言していません。
+W,../../../../main.c,608,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,608,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,608,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,608,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,607,14,c_builtin,W0100,UNC,X99,変数 `err_code' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,621,23,c_builtin,W0459,UNC,X99,変数 `erase_bonds' の値は、この式の評価時点では設定されていません。このプログラムは危険です。
+C,,,,c_builtin,C1000,INF,X99,次の実行パスで警告を検知しました。
+C,../../../../main.c,617,10,c_builtin,C1003,INF,X99,ここで該当変数が初期値を指定せずに定義されています。
+W,../../../../main.c,632,5,c_builtin,W0076,UNC,X99,この 16 進整数リテラルには、接尾語 `U' または `u' が付けられていません。
+W,../../../../main.c,632,5,c_builtin,W0168,UNC,X99,暗黙的に signed int 型から unsigned long 型に型変換されています。
+W,../../../../main.c,632,5,c_builtin,W0578,UNC,X99,暗黙的に汎整数型 `int' の複合式からより大きな型 `unsigned long int' に型変換されています。
+W,../../../../main.c,632,5,c_builtin,W9003,UNC,X99,暗黙的に `int' 型のオブジェクトが `uint32_t' 型のオブジェクトに変換されています。
+W,../../../../main.c,614,5,c_builtin,W0697,UNC,X99,戻り値を返すように定義された関数 `main' の中に、暗黙の `return;' 文で終了するパスが存在します。
+W,../../../../main.c,616,14,c_builtin,W0100,UNC,X99,変数 `err_code' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../main.c,617,10,c_builtin,W0100,UNC,X99,変数 `erase_bonds' は初期値を設定後に再代入されません。変数を const 付きで初期値を指定して定義できる可能性があります。
+W,../../../../config/pstorage_platform.h,33,26,c_builtin,W0629,UNC,X99,static 関数 `pstorage_flash_page_end()' は、この翻訳単位の中で使われていません。
+W,../../../../main.c,88,45,c_builtin,W0736,UNC,X99,ファイルスコープで宣言された静的変数 `m_app_handle' は 1 つの関数内でしか読み書きされていません。
+W,../../../../main.c,94,45,c_builtin,W0736,UNC,X99,ファイルスコープで宣言された静的変数 `m_adc_value' は 1 つの関数内でしか読み書きされていません。
+W,../../../../main.c,97,19,c_builtin,W0736,UNC,X99,ファイルスコープで宣言された静的変数 `m_adv_uuids' は 1 つの関数内でしか読み書きされていません。
+W,../../../../config/device_manager_cnfg.h,12,1,c_builtin,W0073,UNC,X99,このインクルードファイルには、インクルードガードが記述されていません。
+W,../../../../config/pstorage_platform.h,13,1,c_builtin,W0073,UNC,X99,このインクルードファイルには、インクルードガードが記述されていません。
+W,../../../../config/pstorage_platform.h,25,26,c_builtin,W0540,UNC,X99,空の仮引数並びの関数が定義されています。`void' が省略されています。
+W,../../../../config/pstorage_platform.h,33,26,c_builtin,W0540,UNC,X99,空の仮引数並びの関数が定義されています。`void' が省略されています。
+W,../../../../config/pstorage_platform.h,37,59,c_builtin,W0010,UNC,X99,この三項演算子(条件演算子)のオペランドに副作用があります。
+W,../../../../config/pstorage_platform.h,37,59,c_builtin,W0086,UNC,X99,三項演算子(条件演算子)の中で、2 番目あるいは 3 番目のオペランドは、副作用がない冗長な式です。
+W,../../../../services/ble_adconvert_service.h,19,49,c_builtin,W0830,UNC,X99,"列挙子並びの末尾にカンマ `,' があります。"
+W,../../../../services/ble_adconvert_service.h,42,5,c_builtin,W0551,UNC,X99,共用体型指定子が定義されています。
+W,../../../../main.c,276,46,c_builtin,W0834,UNC,X99,long long 型を使っています。
+W,../../../../main.c,277,46,c_builtin,W0834,UNC,X99,long long 型を使っています。
+W,../../../../main.c,348,56,c_builtin,W0834,UNC,X99,long long 型を使っています。
+W,../../../../main.c,557,34,c_builtin,W0834,UNC,X99,long long 型を使っています。
+W,../../../../main.c,27,1,c_builtin,W0070,UNC,X99,インクルードされている </cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h> の内容は翻訳単位の中で全く参照されていません。削除することができます。
+W,../../../../config/pstorage_platform.h,22,1,c_builtin,W0070,UNC,X99,インクルードされている </cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h> の内容は翻訳単位の中で全く参照されていません。削除することができます。
+W,../../../../services/ble_adconvert_service.h,6,1,c_builtin,W0070,UNC,X99,インクルードされている </cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h> の内容は翻訳単位の中で全く参照されていません。削除することができます。
+W,../../../../services/service_if.h,16,1,c_builtin,W0070,UNC,X99,インクルードされている </cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h> の内容は翻訳単位の中で全く参照されていません。削除することができます。
+W,../../../../main.c,30,1,c_builtin,W0071,UNC,X99,"インクルードされている ""../../../../../../components/device/nrf.h"" の内容は翻訳単位の中で全く参照されていません。削除することができます。"
+W,../../../../main.c,40,1,c_builtin,W0071,UNC,X99,"インクルードされている ""../../../../../../examples/bsp/boards.h"" の内容は翻訳単位の中で全く参照されていません。削除することができます。"
+W,../../../../config/pstorage_platform.h,23,1,c_builtin,W0071,UNC,X99,"インクルードされている ""../../../../../../components/device/nrf.h"" の内容は翻訳単位の中で全く参照されていません。削除することができます。"
+W,../../../../main.c,45,1,c_builtin,W0071,UNC,X99,"インクルードされている ""../../../../../../components/libraries/trace/app_trace.h"" の内容は翻訳単位の中で全く参照されていません。削除することができます。"
+W,../../../../main.c,48,1,c_builtin,W0071,UNC,X99,"インクルードされている ""../../../../services/ble_adconvert_service.h"" の内容は翻訳単位の中で全く参照されていません。削除することができます。"
+W,../../../../services/ble_adconvert_service.h,10,1,c_builtin,W0071,UNC,X99,"インクルードされている ""../../../../../../components/libraries/util/app_util_bds.h"" の内容は翻訳単位の中で全く参照されていません。削除することができます。"
+W,../../../../main.c,133,5,c_builtin,W0085,UNC,X99,この文には副作用がありません。誤りのある可能性が高いです。
+W,../../../../main.c,108,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,148,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,152,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,167,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,172,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,186,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,251,9,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,262,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,285,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,296,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,300,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,304,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,322,13,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,345,13,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,349,13,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,351,13,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,408,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,419,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,424,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,428,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,449,17,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,457,17,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,475,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,501,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,504,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,518,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,544,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,559,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,562,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,608,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,632,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,635,5,c_builtin,W0114,UNC,X99,この制御式は明示的な論理演算ではありません。
+W,../../../../main.c,148,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,152,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,167,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,172,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,186,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,251,9,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,285,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,296,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,300,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,304,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,322,13,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,345,13,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,349,13,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,351,13,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,408,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,419,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,424,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,428,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,449,17,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,457,17,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,475,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,501,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,504,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,518,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,544,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,559,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,562,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,608,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,632,5,c_builtin,W0425,UNC,X99,一つの行に複数の宣言または文が存在します。
+W,../../../../main.c,363,5,c_builtin,W0431,UNC,X99,この行は以前の同じ深さのインデントより左にずれています。
+W,../../../../main.c,637,9,c_builtin,W0431,UNC,X99,この行は以前の同じ深さのインデントより左にずれています。
+W,../../../../main.c,321,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,322,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,323,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,325,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,326,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,328,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,342,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,344,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,345,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,346,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,348,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,349,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,350,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,351,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,352,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,355,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,356,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,357,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,358,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,362,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,442,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,443,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,446,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,447,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,448,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,449,17,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,450,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,451,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,454,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,455,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,456,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,457,17,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,458,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,459,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,462,13,c_builtin,W0432,UNC,X99,この行はプロジェクトのインデントスタイルと合っていません。
+W,../../../../main.c,,,c_builtin,W0059,UNC,X99,このファイルの行末に Ctrl-M(^M) 制御文字が見つかりました。
+W,../../../../config/device_manager_cnfg.h,,,c_builtin,W0059,UNC,X99,このファイルの行末に Ctrl-M(^M) 制御文字が見つかりました。
+W,../../../../config/pstorage_platform.h,,,c_builtin,W0059,UNC,X99,このファイルの行末に Ctrl-M(^M) 制御文字が見つかりました。
+W,../../../../services/ble_adconvert_service.h,,,c_builtin,W0059,UNC,X99,このファイルの行末に Ctrl-M(^M) 制御文字が見つかりました。
+W,../../../../services/service_if.h,,,c_builtin,W0059,UNC,X99,このファイルの行末に Ctrl-M(^M) 制御文字が見つかりました。

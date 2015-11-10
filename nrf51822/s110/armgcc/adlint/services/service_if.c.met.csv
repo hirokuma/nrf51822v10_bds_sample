@@ -1,0 +1,155 @@
+VER,3.2.14,2015-10-23 23:12:43 +0900,/cygdrive/e/Prog/BLE/nRF51_SDK_9.0.0_2e23562/projects/adc_test/nrf51822/s110/armgcc/adlint
+DEP,../../../../services/service_if.c,3,1,I,"""../../../../services/service_if.h"""
+DEF,../../../../services/service_if.h,14,1,M,BLE_DS_IF_H__,O
+DEP,../../../../services/service_if.h,16,1,I,</cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h>
+DEP,../../../../services/service_if.h,17,1,I,"""../../../../../../components/softdevice/s110/headers/ble.h"""
+DEP,../../../../services/service_if.c,4,1,I,</cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h>
+DEP,../../../../services/service_if.c,5,1,I,"""../../../../../../components/libraries/util/app_error.h"""
+DEP,../../../../services/service_if.c,6,1,I,"""../../../../../../components/libraries/trace/app_trace.h"""
+DEP,../../../../services/service_if.c,7,1,I,"""../../../../services/ble_adconvert_service.h"""
+DEF,../../../../services/ble_adconvert_service.h,4,1,M,BLE_ADCONVERT_SERVICE_H__,O
+DEP,../../../../services/ble_adconvert_service.h,6,1,I,</cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h>
+DEP,../../../../services/ble_adconvert_service.h,7,1,I,</cygdrive/c/Winappli/arm-gcc/gcc-arm-none-eabi-4_9-2015q1-20150306-win32/lib/gcc/arm-none-eabi/4.9.3/include/stdbool.h>
+DEP,../../../../services/ble_adconvert_service.h,8,1,I,"""../../../../../../components/softdevice/s110/headers/ble.h"""
+DEP,../../../../services/ble_adconvert_service.h,9,1,I,"""../../../../../../components/ble/common/ble_srv_common.h"""
+DEP,../../../../services/ble_adconvert_service.h,10,1,I,"""../../../../../../components/libraries/util/app_util_bds.h"""
+DCL,../../../../services/service_if.h,24,10,F,X,F,E,bluetooth_init,uint32_t bluetooth_init(void)
+DCL,../../../../services/service_if.h,32,6,F,X,F,E,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *)
+DCL,../../../../services/service_if.h,34,6,F,X,F,E,bluetooth_adc_send,void bluetooth_adc_send(uint16_t)
+DCL,../../../../services/ble_adconvert_service.h,75,10,F,X,F,E,ble_adconvert_service_init,"uint32_t ble_adconvert_service_init(ble_adconvert_service_t *,ble_adconvert_service_init_t const *)"
+DCL,../../../../services/ble_adconvert_service.h,78,6,F,X,F,E,ble_adconvert_service_on_ble_evt,"void ble_adconvert_service_on_ble_evt(ble_adconvert_service_t *,ble_evt_t *)"
+DCL,../../../../services/ble_adconvert_service.h,91,10,F,X,F,E,ble_adconvert_service_advalue_set,"uint32_t ble_adconvert_service_advalue_set(ble_adconvert_service_t *,ble_adconvert_service_advalue_t *)"
+DCL,../../../../services/ble_adconvert_service.h,104,10,F,X,F,E,ble_adconvert_service_advalue_send,"uint32_t ble_adconvert_service_advalue_send(ble_adconvert_service_t *,ble_adconvert_service_advalue_t *)"
+DEF,../../../../services/service_if.c,9,35,V,I,F,S,m_adconvert_service,ble_adconvert_service_t
+DEF,../../../../services/service_if.c,21,13,F,I,F,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",18
+DEF,../../../../services/service_if.c,21,64,V,I,P,N,p_adconvert_service,ble_adconvert_service_t *
+DEF,../../../../services/service_if.c,21,115,V,I,P,N,p_evt,ble_adconvert_service_evt_t *
+MET,FN_UNUV,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,1
+MET,FN_PATH,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,4
+DEF,../../../../services/service_if.c,46,10,F,X,F,bluetooth_init,uint32_t bluetooth_init(void),20
+DEF,../../../../services/service_if.c,48,17,V,I,B,N,err_code,uint32_t
+DEF,../../../../services/service_if.c,49,37,V,I,B,N,adconvert_service_init,ble_adconvert_service_init_t
+DEP,../../../../services/service_if.c,53,5,X,F,bluetooth_init,uint32_t bluetooth_init(void),R,memset,"void * memset(void *,int,size_t)"
+DEP,../../../../services/service_if.c,53,11,C,bluetooth_init,uint32_t bluetooth_init(void),memset,"void * memset(void *,int,size_t)"
+DEP,../../../../services/service_if.c,55,42,X,F,bluetooth_init,uint32_t bluetooth_init(void),R,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)"
+DEP,../../../../services/service_if.c,58,43,X,V,bluetooth_init,uint32_t bluetooth_init(void),R,m_adconvert_service
+DEP,../../../../services/service_if.c,58,16,X,F,bluetooth_init,uint32_t bluetooth_init(void),R,ble_adconvert_service_init,"uint32_t ble_adconvert_service_init(ble_adconvert_service_t *,ble_adconvert_service_init_t const *)"
+DEP,../../../../services/service_if.c,58,43,X,V,bluetooth_init,uint32_t bluetooth_init(void),W,m_adconvert_service
+DEP,../../../../services/service_if.c,58,42,C,bluetooth_init,uint32_t bluetooth_init(void),ble_adconvert_service_init,"uint32_t ble_adconvert_service_init(ble_adconvert_service_t *,ble_adconvert_service_init_t const *)"
+MET,FN_UNUV,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,0
+MET,FN_PATH,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,2
+DEF,../../../../services/service_if.c,73,6,F,X,F,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),4
+DEF,../../../../services/service_if.c,73,39,V,I,P,N,p_ble_evt,ble_evt_t *
+DEP,../../../../services/service_if.c,75,38,X,V,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),R,m_adconvert_service
+DEP,../../../../services/service_if.c,75,5,X,F,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),R,ble_adconvert_service_on_ble_evt,"void ble_adconvert_service_on_ble_evt(ble_adconvert_service_t *,ble_evt_t *)"
+DEP,../../../../services/service_if.c,75,38,X,V,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),W,m_adconvert_service
+DEP,../../../../services/service_if.c,75,37,C,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),ble_adconvert_service_on_ble_evt,"void ble_adconvert_service_on_ble_evt(ble_adconvert_service_t *,ble_evt_t *)"
+MET,FN_UNUV,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,0
+MET,FN_PATH,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,1
+DEF,../../../../services/service_if.c,78,6,F,X,F,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),11
+DEF,../../../../services/service_if.c,78,34,V,I,P,N,adc,uint16_t
+DEF,../../../../services/service_if.c,80,14,V,I,B,N,err_code,uint32_t
+DEF,../../../../services/service_if.c,81,37,V,I,B,N,value,ble_adconvert_service_advalue_t
+DEP,../../../../services/service_if.c,84,51,X,V,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),R,m_adconvert_service
+DEP,../../../../services/service_if.c,84,16,X,F,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),R,ble_adconvert_service_advalue_send,"uint32_t ble_adconvert_service_advalue_send(ble_adconvert_service_t *,ble_adconvert_service_advalue_t *)"
+DEP,../../../../services/service_if.c,84,51,X,V,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),W,m_adconvert_service
+DEP,../../../../services/service_if.c,84,50,C,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),ble_adconvert_service_advalue_send,"uint32_t ble_adconvert_service_advalue_send(ble_adconvert_service_t *,ble_adconvert_service_advalue_t *)"
+DEF,../../../../services/service_if.c,86,9,V,I,B,N,LOCAL_ERR_CODE,uint32_t const
+DEP,../../../../services/service_if.c,86,9,X,F,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),R,app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+DEP,../../../../services/service_if.c,86,9,C,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),app_error_handler,"void app_error_handler(uint32_t,uint32_t,uint8_t const *)"
+MET,FN_UNUV,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,1
+MET,FN_PATH,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,2
+PRE,../../../../services/service_if.c,3,1,#include,"""service_if.h"""
+PRE,../../../../services/service_if.h,13,1,#ifndef,BLE_DS_IF_H__
+PRE,../../../../services/service_if.h,14,1,#define,BLE_DS_IF_H__
+PRE,../../../../services/service_if.h,16,1,#include,<stdint.h>
+PRE,../../../../services/service_if.h,17,1,#include,"""ble.h"""
+PRE,../../../../services/service_if.h,36,1,#endif,
+PRE,../../../../services/service_if.c,4,1,#include,<stdint.h>
+PRE,../../../../services/service_if.c,5,1,#include,"""app_error.h"""
+PRE,../../../../services/service_if.c,6,1,#include,"""app_trace.h"""
+PRE,../../../../services/service_if.c,7,1,#include,"""ble_adconvert_service.h"""
+PRE,../../../../services/ble_adconvert_service.h,3,1,#ifndef,BLE_ADCONVERT_SERVICE_H__
+PRE,../../../../services/ble_adconvert_service.h,4,1,#define,BLE_ADCONVERT_SERVICE_H__
+PRE,../../../../services/ble_adconvert_service.h,6,1,#include,<stdint.h>
+PRE,../../../../services/ble_adconvert_service.h,7,1,#include,<stdbool.h>
+PRE,../../../../services/ble_adconvert_service.h,8,1,#include,"""ble.h"""
+PRE,../../../../services/ble_adconvert_service.h,9,1,#include,"""ble_srv_common.h"""
+PRE,../../../../services/ble_adconvert_service.h,10,1,#include,"""app_util_bds.h"""
+PRE,../../../../services/ble_adconvert_service.h,106,1,#endif,
+DCL,../../../../services/ble_adconvert_service.h,15,9,T,E,__adlint__anon_126,"enum __adlint__anon_126 { BLE_ADCONVERT_SERVICE_ADVALUE_EVT_NOTIFICATION_ENABLED, BLE_ADCONVERT_SERVICE_ADVALUE_EVT_NOTIFICATION_DISABLED, BLE_ADCONVERT_SERVICE_ADVALUE_EVT_CCCD_WRITE }"
+DCL,../../../../services/ble_adconvert_service.h,20,3,T,T,ble_adconvert_service_evt_type_t,"enum __adlint__anon_126 { BLE_ADCONVERT_SERVICE_ADVALUE_EVT_NOTIFICATION_ENABLED, BLE_ADCONVERT_SERVICE_ADVALUE_EVT_NOTIFICATION_DISABLED, BLE_ADCONVERT_SERVICE_ADVALUE_EVT_CCCD_WRITE }"
+DCL,../../../../services/ble_adconvert_service.h,23,40,T,T,ble_adconvert_service_t,struct ble_adconvert_service_s { ble_adconvert_service_evt_handler_t evt_handler; uint16_t service_handle; ble_gatts_char_handles_t advalue_handles; uint16_t conn_handle; }
+DCL,../../../../services/ble_adconvert_service.h,33,9,T,S,__adlint__anon_127,struct __adlint__anon_127 { uint16_t advalue; }
+DCL,../../../../services/ble_adconvert_service.h,36,3,T,T,ble_adconvert_service_advalue_t,struct __adlint__anon_127 { uint16_t advalue; }
+DCL,../../../../services/ble_adconvert_service.h,42,5,T,U,__adlint__anon_128,union __adlint__anon_128 { uint16_t cccd_value; }
+DCL,../../../../services/ble_adconvert_service.h,39,9,T,S,__adlint__anon_129,struct __adlint__anon_129 { ble_adconvert_service_evt_type_t evt_type; union __adlint__anon_128 params; }
+DCL,../../../../services/ble_adconvert_service.h,45,3,T,T,ble_adconvert_service_evt_t,struct __adlint__anon_129 { ble_adconvert_service_evt_type_t evt_type; union __adlint__anon_128 params; }
+DCL,../../../../services/ble_adconvert_service.h,48,16,T,T,ble_adconvert_service_evt_handler_t,"void(*)(struct ble_adconvert_service_s { ble_adconvert_service_evt_handler_t evt_handler; uint16_t service_handle; ble_gatts_char_handles_t advalue_handles; uint16_t conn_handle; } *,struct __adlint__anon_129 { ble_adconvert_service_evt_type_t evt_type; union __adlint__anon_128 params; } *)"
+DCL,../../../../services/ble_adconvert_service.h,51,9,T,S,__adlint__anon_130,struct __adlint__anon_130 { ble_adconvert_service_evt_handler_t evt_handler; ble_adconvert_service_advalue_t ble_adconvert_service_advalue_initial_value; }
+DCL,../../../../services/ble_adconvert_service.h,55,3,T,T,ble_adconvert_service_init_t,struct __adlint__anon_130 { ble_adconvert_service_evt_handler_t evt_handler; ble_adconvert_service_advalue_t ble_adconvert_service_advalue_initial_value; }
+DCL,../../../../services/ble_adconvert_service.h,58,8,T,S,ble_adconvert_service_s,struct ble_adconvert_service_s { ble_adconvert_service_evt_handler_t evt_handler; uint16_t service_handle; ble_gatts_char_handles_t advalue_handles; uint16_t conn_handle; }
+MET,FN_LINE,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,18
+MET,FN_PARA,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,2
+MET,FN_STMT,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,12
+MET,FN_UNRC,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,0
+MET,FN_CSUB,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,0
+MET,FN_GOTO,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,0
+MET,FN_RETN,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,1
+MET,FN_UELS,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,0
+MET,FN_NEST,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,1
+MET,FN_CYCM,on_adconvert_service_evt,"void on_adconvert_service_evt(ble_adconvert_service_t *,ble_adconvert_service_evt_t *)",../../../../services/service_if.c,21,13,4
+MET,FN_LINE,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,20
+MET,FN_PARA,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,0
+LIT,../../../../services/service_if.c,53,37,DN,,,0
+ASN,../../../../services/service_if.c,55,40,adconvert_service_init.evt_handler,= on_adconvert_service_evt
+ASN,../../../../services/service_if.c,56,80,adconvert_service_init.ble_adconvert_service_advalue_initial_value.advalue,= 0x0
+LIT,../../../../services/service_if.c,56,82,HN,0x,,0x0
+ASN,../../../../services/service_if.c,58,14,err_code,"= ble_adconvert_service_init(&m_adconvert_service,&adconvert_service_init)"
+LIT,../../../../services/service_if.c,59,21,HN,0x,,0x0
+LIT,../../../../services/service_if.c,59,21,DN,,,0
+LIT,../../../../services/service_if.c,64,12,HN,0x,,0x0
+LIT,../../../../services/service_if.c,64,12,DN,,,0
+MET,FN_STMT,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,7
+MET,FN_UNRC,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,0
+MET,FN_CSUB,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,2
+MET,FN_GOTO,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,0
+MET,FN_RETN,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,2
+MET,FN_UELS,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,0
+MET,FN_NEST,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,1
+MET,FN_CYCM,bluetooth_init,uint32_t bluetooth_init(void),../../../../services/service_if.c,46,10,2
+MET,FN_LINE,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,4
+MET,FN_PARA,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,1
+MET,FN_STMT,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,1
+MET,FN_UNRC,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,0
+MET,FN_CSUB,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,1
+MET,FN_GOTO,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,0
+MET,FN_RETN,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,1
+MET,FN_UELS,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,0
+MET,FN_NEST,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,0
+MET,FN_CYCM,bluetooth_on_ble_evt,void bluetooth_on_ble_evt(ble_evt_t *),../../../../services/service_if.c,73,6,1
+MET,FN_LINE,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,11
+MET,FN_PARA,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,1
+ASN,../../../../services/service_if.c,83,19,value.advalue,= adc
+ASN,../../../../services/service_if.c,84,14,err_code,"= ble_adconvert_service_advalue_send(&m_adconvert_service,&value)"
+LIT,../../../../services/service_if.c,85,22,HN,0x,,0x0
+LIT,../../../../services/service_if.c,85,22,DN,,,0
+LIT,../../../../services/service_if.c,85,51,HN,0x,,0x0
+LIT,../../../../services/service_if.c,85,51,DN,,,8
+INI,../../../../services/service_if.c,86,9,LOCAL_ERR_CODE,(err_code)
+LIT,../../../../services/service_if.c,86,9,HN,0x,,0x0
+LIT,../../../../services/service_if.c,86,9,DN,,,0
+LIT,../../../../services/service_if.c,86,9,DN,,,0
+LIT,../../../../services/service_if.c,86,9,DN,,,0
+LIT,../../../../services/service_if.c,86,9,DN,,,0
+LIT,../../../../services/service_if.c,86,9,DN,,,0
+MET,FN_STMT,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,7
+MET,FN_UNRC,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,0
+MET,FN_CSUB,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,2
+MET,FN_GOTO,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,0
+MET,FN_RETN,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,1
+MET,FN_UELS,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,0
+MET,FN_NEST,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,4
+MET,FN_CYCM,bluetooth_adc_send,void bluetooth_adc_send(uint16_t),../../../../services/service_if.c,78,6,3
+MET,FL_STMT,../../../../services/service_if.c,27
+MET,FL_FUNC,../../../../services/service_if.c,4

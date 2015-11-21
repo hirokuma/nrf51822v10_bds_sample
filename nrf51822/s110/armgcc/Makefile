@@ -44,12 +44,14 @@ SIZE    		:= "$(GNU_INSTALL_ROOT)/bin/$(GNU_PREFIX)-size"
 #function for removing duplicates in a list
 remduplicates = $(strip $(if $1,$(firstword $1) $(call remduplicates,$(filter-out $(firstword $1),$1))))
 
-#source common to all targets
-C_SOURCE_FILES += \
+#source project files
+C_PROJ_FILES = \
 $(PRJ_PATH)/main.c \
 $(PRJ_PATH)/services/service_if.c \
-$(PRJ_PATH)/services/ble_adconvert_service.c \
-\
+$(PRJ_PATH)/services/ble_adconvert_service.c
+
+#source common to all targets
+C_SOURCE_FILES = $(C_PROJ_FILES)\
 $(SDK_PATH)/components/libraries/button/app_button.c \
 $(SDK_PATH)/components/libraries/util/app_error.c \
 $(SDK_PATH)/components/libraries/timer/app_timer.c \
@@ -68,12 +70,12 @@ $(SDK_PATH)/components/ble/common/ble_srv_common.c \
 $(SDK_PATH)/components/ble/ble_advertising/ble_advertising.c \
 $(SDK_PATH)/components/ble/device_manager/device_manager_peripheral.c \
 $(SDK_PATH)/components/toolchain/system_nrf51.c \
-$(SDK_PATH)/components/softdevice/common/softdevice_handler/softdevice_handler.c \
-\
-$(SDK_PATH)/components/libraries/trace/app_trace.c \
-$(SDK_PATH)/components/libraries/fifo/app_fifo.c \
-$(SDK_PATH)/components/libraries/uart/retarget.c \
-$(SDK_PATH)/components/drivers_nrf/uart/app_uart_fifo.c
+$(SDK_PATH)/components/softdevice/common/softdevice_handler/softdevice_handler.c
+
+#$(SDK_PATH)/components/libraries/trace/app_trace.c \
+#$(SDK_PATH)/components/libraries/fifo/app_fifo.c \
+#$(SDK_PATH)/components/libraries/uart/retarget.c \
+#$(SDK_PATH)/components/drivers_nrf/uart/app_uart_fifo.c
 
 #assembly files common to all targets
 ASM_SOURCE_FILES  = $(SDK_PATH)/components/toolchain/gcc/gcc_startup_nrf51.s
@@ -112,14 +114,14 @@ OUTPUT_BINARY_DIRECTORY = $(OBJECT_DIRECTORY)
 BUILD_DIRECTORIES := $(sort $(OBJECT_DIRECTORY) $(OUTPUT_BINARY_DIRECTORY) $(LISTING_DIRECTORY) )
 
 #flags common to all targets
-CFLAGS  = -D$(BOARD_NAME)
-CFLAGS += -DSWI_DISABLE0
-CFLAGS += -DSOFTDEVICE_PRESENT
-CFLAGS += -DNRF51
-CFLAGS += -DS110
-CFLAGS += -DBLE_STACK_SUPPORT_REQD
+COPTS  = -D$(BOARD_NAME)
+COPTS += -DSWI_DISABLE0
+COPTS += -DSOFTDEVICE_PRESENT
+COPTS += -DNRF51
+COPTS += -DS110
+COPTS += -DBLE_STACK_SUPPORT_REQD
 
-CFLAGS += -Wall -Werror
+CFLAGS += $(COPTS) -Wall -Werror
 
 #debug
 ifeq ($(NRF51_DEBUG),1)
@@ -164,8 +166,8 @@ all: clean
 #target for printing all targets
 help:
 	@echo following targets are available:
-	@echo 	nrf51822_s110
-	@echo 	flash_softdevice
+	@echo nrf51822_s110
+	@echo flash_softdevice
 
 
 C_SOURCE_FILE_NAMES = $(notdir $(C_SOURCE_FILES))
@@ -253,3 +255,7 @@ flash:
 flash_softdevice: 
 	@echo Flashing: s110_softdevice.hex
 	nrfjprog --program $(SDK_PATH)/components/softdevice/s110/hex/s110_softdevice.hex
+
+## Check
+check: $(C_PROJ_FILES)
+	$(NO_ECHO)cppcheck --enable=all $(COPTS) $(INC_PATHS) $^

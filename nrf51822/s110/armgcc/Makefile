@@ -259,3 +259,6 @@ flash_softdevice:
 ## Check
 check: $(C_PROJ_FILES)
 	$(NO_ECHO)cppcheck --enable=all $(COPTS) $(INC_PATHS) $^
+
+splint: $(C_PROJ_FILES)
+	$(NO_ECHO)splint $(COPTS) $(INC_PATHS) $^

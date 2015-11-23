@@ -1,0 +1,69 @@
+include common.mak
+
+GTEST_DIR = $(PRJ_PATH)/services/test/gtest
+TEST_DIR = $(PRJ_PATH)/services/test
+OBJECT_DIRECTORY = _ggtest
+
+
+TEST_TARGET_SRC = \
+$(PRJ_PATH)/services/service_if.c \
+$(PRJ_PATH)/services/ble_adconvert_service.c \
+
+TEST_TARGET_SRC += \
+$(TEST_DIR)/test_service_if.c \
+$(TEST_DIR)/test_ble_adconvert_service.c \
+$(TEST_DIR)/fake.c
+
+
+################################
+# GoogleTest
+
+# Flags passed to the preprocessor.
+# Set Google Test's header directory as a system directory, such that
+# the compiler doesn't generate warnings in Google Test headers.
+CPPFLAGS += -isystem -I$(GTEST_DIR) -I$(TEST_DIR) $(COPTS)
+
+# Flags passed to the C++ compiler.
+CXXFLAGS += -g -Wall -Wextra -pthread
+
+
+TEST_SRC_FILE_NAMES = $(notdir $(TEST_TARGET_SRC))
+TEST_PATHS = $(call remduplicates, $(dir $(TEST_TARGET_SRC) ) )
+TEST_OBJECTS = $(addprefix $(OBJECT_DIRECTORY)/, $(TEST_SRC_FILE_NAMES:.c=.o) )
+
+
+vpath %.c $(TEST_PATHS)
+
+
+all: unittest
+
+unittest : $(OBJECT_DIRECTORY) $(GTEST_DIR)/gtest_main.a $(TEST_OBJECTS)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) $(TEST_OBJECTS) $(GTEST_DIR)/gtest_main.a -lpthread -o $(OBJECT_DIRECTORY)/$@
+
+$(OBJECT_DIRECTORY):
+	@echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	@echo @ Google Test
+	@echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	$(NO_ECHO)$(MK) $@
+
+# Create objects from C SRC files
+$(OBJECT_DIRECTORY)/%.o: %.c
+	@echo Compiling file: $(notdir $<) $@
+	$(ECHO)$(CXX) -DSVCALL_AS_NORMAL_FUNCTION $(CPPFLAGS) $(CXXFLAGS) $(INC_PATHS) -c -o $@ $<
+
+$(GTEST_DIR)/gtest_main.a:
+	make -C $(GTEST_DIR)
+
+clean :
+	$(RM) $(OBJECT_DIRECTORY)
+
+info:
+	@echo TEST_TARGET_SRC=$(TEST_TARGET_SRC)
+	@echo TEST_SRC_FILE_NAMES=$(TEST_SRC_FILE_NAMES)
+	@echo TEST_PATHS=$(TEST_PATHS)
+	@echo TEST_OBJECTS=$(TEST_OBJECTS)
+
+
+################################
+
+

@@ -5,6 +5,11 @@
 
 #include <stdint.h>
 #include <stdbool.h>
+
+#ifdef __cplusplus
+extern "C" {
+#endif  //__cplusplus
+
 #include "ble.h"
 #include "ble_srv_common.h"
 #include "app_util_bds.h"
@@ -102,5 +107,9 @@ uint32_t ble_adconvert_service_advalue_set(ble_adconvert_service_t * p_adconvert
  * @return      NRF_SUCCESS on success, otherwise an error code.
  */
 uint32_t ble_adconvert_service_advalue_send(ble_adconvert_service_t * p_adconvert_service, ble_adconvert_service_advalue_t * p_advalue);
+
+#ifdef __cplusplus
+}
+#endif  //__cplusplus
 
 #endif //_BLE_ADCONVERT_SERVICE_H__
